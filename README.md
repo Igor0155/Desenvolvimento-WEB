@@ -1,2 +1,2 @@
 # Desenvolvimento-WEB
-Repositorio destinado a algoritmos para web
+Repositorio destinado a algoritmos web
