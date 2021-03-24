@@ -1,0 +1,137 @@
+/*Definindo a fonte para toda a pagina web*/
+*{ font-family: "New Tegomin", serif; color:azure }
+/*Topo da pagina Principal*/
+.top{
+    
+    background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+    color: white;
+    font-size:100%;
+    top: 0px;
+    width: 100%;
+    padding-top: 7px;
+    margin-left: -10px;
+    margin-right: -15px;
+    display: flex;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:3px ;
+}
+.top a{color:seashell}
+
+/*Topo da pagina de contato*/
+.topc{
+    
+    float: center;
+    margin: -7px;
+    border: 100%;
+    background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+    color: white;
+    font-size:100%;
+}
+.topc a{color:seashell}
+
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(fundo.jpg);
+    background-size:auto;
+    background-attachment: fixed;
+    
+}       
+.Carro1 {
+    font-size: 20px;
+    color:#5C1D0B;
+    float: left;
+    margin-top: 50px;
+    
+}
+.Carro2 {
+   
+    float:center;
+    margin-top: 50px;
+    font-size: 20px;
+    color:#A8751D;
+}
+       
+.Carro3 {
+    font-size: 20px;
+    color: #3F5C2C;
+    float: left;
+    margin-top: 50px;
+}
+/*Rodape*/
+.fim{
+     
+    background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+    color: white;
+    margin: -7px;
+    border: 100%;
+    position: static;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 0 10px rgba(0,0,0,0.8);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    bottom: 0px;
+    min-width: 600px;
+   
+
+}
+.fimC{
+     
+    background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    min-width: 600px;
+    padding-bottom: 20px;
+    margin-left: -10px;
+    margin-right: -15px;
+    height: 170px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ 
+}
+#topo{
+
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    background-color: rgba(49, 10, 189, 0.829) ;
+    padding: 14px;
+    position:relative;
+    margin: 50px;
+    box-shadow: 4px 4px 10px #000000;
+}
+
+/*Edição do formulario*/
+form{
+    margin-top: 50px;
+    transition: all 1.5s ease-in-out;
+}
+.form-control{
+    
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+        height: 45px;
+
+}
+form .submit{
+        background: #ff5722;
+        border-color: transparent;
+        color: #ffff;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing:2px ;
+        margin-top: 20px;
+}
