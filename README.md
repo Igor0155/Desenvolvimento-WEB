@@ -3,8 +3,8 @@ Repositorio destinado a algoritmos web
 
 ### Curso TI
 
-## [__Atividades__](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Atividades)
+  - [Atividades](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_TI/Atividades)
 
-## [__HTML__](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/HTML)
+  - [HTML](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_TI/HTML)
 
 
