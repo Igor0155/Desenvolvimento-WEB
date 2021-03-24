@@ -6,7 +6,7 @@
     background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
     color: white;
     font-size:100%;
-    top: 0px;
+    top: -10px;
     width: 100%;
     padding-top: 7px;
     margin-left: -10px;
@@ -21,7 +21,8 @@
 
 /*Topo da pagina de contato*/
 .topc{
-    
+
+    top: -10px;
     float: center;
     margin: -7px;
     border: 100%;
@@ -95,6 +96,7 @@ body{
     display: flex;
  
 }
+/*Botao*/
 #topo{
 
     text-decoration: none;
@@ -103,7 +105,7 @@ body{
     padding: 14px;
     position:relative;
     margin: 50px;
-    box-shadow: 4px 4px 10px #000000;
+    box-shadow: 2px 2px 5px #ffffff;
 }
 
 /*Edição do formulario*/
