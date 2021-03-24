@@ -1,7 +1,7 @@
 # Desenvolvimento-WEB
 Repositorio destinado a algoritmos web
 
-### Curso TI
+## Curso TI
 
   - [Atividades](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_TI/Atividades)
 
