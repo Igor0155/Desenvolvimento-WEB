@@ -1,4 +1,4 @@
-# Desenvolvimento-WEB
+# Desenvolvimento_WEB
 Repositorio destinado a algoritmos web
 
 ## Curso TI
