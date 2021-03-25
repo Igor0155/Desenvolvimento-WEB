@@ -1,5 +1,5 @@
 # Desenvolvimento_WEB
-Repositorio destinado a algoritmos web
+Repositorio destinado a aplicações  web
 
 ## Curso TI
 
