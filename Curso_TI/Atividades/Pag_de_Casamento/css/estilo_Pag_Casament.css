@@ -1,0 +1,236 @@
+
+
+/*-------------Barra de Navegação (MENU)------------------*/
+
+#menu {
+    padding: auto;
+    list-style-type: none;
+    float: center;
+    width: 900px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+#menu li{    
+    float: left;
+    margin: auto;
+}
+#menu a{
+    width: 200px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+    line-height: 2.3em;
+    text-decoration: none;
+}
+.topo:visited{
+    text-decoration: none;
+    color:rgb(209, 154, 16);
+}
+
+.topo:hover{
+    color:rgb(4, 37, 134);
+    
+}
+
+/*---------------BANNER-----------------*/
+
+.banner{
+    float: center;
+    text-align: center;
+    margin: auto;
+}
+.limpa_float1{
+    clear: both;
+}
+
+/*---------------Imagens de promocoes----------------*/
+
+#imagens_top{
+  width: 655px;
+  margin: 0px auto;
+  padding: 25px;
+  padding-right:10px;
+  
+}
+
+#img1{
+    display: block;
+    float: left;
+    padding: 3px;
+    
+
+}
+#img2{
+    display: block;
+    float: left;
+    padding: 3px;
+    
+
+}
+#img3{
+    display: block;
+    float: left;
+    padding: 3px;
+    
+
+}
+.limpa_float2{
+    clear: both;
+}
+/*-------------------Logo coração-------------------*/
+.logo_coracao{
+    padding: auto;
+    display: block;
+    float: center;
+    margin: auto;   
+}
+
+.limpa_float3{
+    clear: both;
+}
+/*-------------------Mensagem-------------------*/
+
+.msm{
+    width: 700px;
+    height: 180px;
+    margin: auto;
+    
+}
+#msm1{
+    
+    text-align: center;
+    font-size: 3em;
+    color:rgb(133, 132, 132);  
+    margin-top: 30px;
+      
+}
+/*-------------------Recado e imagem de recado-------------------*/
+
+.recado{
+    
+    margin: auto;
+    padding: auto;
+    width: 600px;
+    height: 260px;
+    
+}
+#texto_recado{
+    border-bottom: 2px solid rgb(209, 154, 16);
+    display: block;
+    font-size: 1.5em;
+    float: left;
+    width: 200px;
+    height: 180px;
+    margin-top: 60px;
+    margin-left: 100px ;
+    text-align:right;
+    color:rgb(209, 154, 16);
+    
+}
+.img_recado{
+    width: 250px;
+    display: block;
+    float: right;
+}
+
+.limpa_float4{
+    clear: both;
+}
+/*----------------------Mensagens ------------------------*/
+#texto{
+    width: 600px;
+    margin: 100px auto auto;
+    
+}
+
+#msm_1{
+    width: 280px;
+    position: relative;
+    left: 280px;
+    font-size: 0.75em;
+    padding: 10px;
+    
+}
+#msm_2{
+    width: 280px;
+    position: relative;
+    border-bottom: 1px solid rgb(209, 154, 16);;
+    font-size: 0.75em;
+    padding: 20px;
+    
+    
+}
+#msm_3{
+    width: 280px;
+    position: relative;
+    left: 280px;
+    font-size: 0.75em;
+    padding: 20px;
+}
+#msm_4{
+    width: 280px;
+    position: relative;
+    border-bottom: 1px solid rgb(209, 154, 16);
+    font-size: 0.75em;
+    padding: 20px;
+}
+#msm_5{
+    width: 280px;
+    position: relative;
+    left: 280px;
+    font-size: 0.75em;
+    padding: 20px;
+}   
+#msm_6{
+    width: 280px;
+    position: relative;
+    border-bottom: 1px solid rgb(209, 154, 16);
+    font-size: 0.75em;
+    padding: 20px;
+}
+.cor_linha{
+    color-adjust:rgb(255, 4, 4);
+}
+#texto ul{
+
+    list-style-type:disc;
+    list-style-position: inside;
+}
+.cor_linha { 
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid rgb(209, 154, 16);
+    margin: 1em 0; padding: 0; 
+}
+.limpa_float5{
+    clear: both;
+}
+/*---------------------------------Rodape -------------------------*/
+
+.rodape{
+    margin-left: -10px;
+    margin-right: -15px;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    min-width: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../img/fundo3.jpg");
+    position:absolute;
+}
+#cont {
+
+    float: left;
+    height: 100px;
+    text-align: center;
+
+}
+#col1{
+    padding: auto;
+    width: 700px;
+    margin: 10px;
+    height: auto;
+    list-style-type: none;
+    font-size: 1em;
+}
