@@ -49,33 +49,16 @@
 /*---------------Imagens de promocoes----------------*/
 
 #imagens_top{
-  width: 655px;
+  width: 618px;
   margin: 0px auto;
-  padding: 25px;
+  padding: 5px;
   padding-right:10px;
-  
 }
 
-#img1{
-    display: block;
+.img1{
+    display: inline;
     float: left;
     padding: 3px;
-    
-
-}
-#img2{
-    display: block;
-    float: left;
-    padding: 3px;
-    
-
-}
-#img3{
-    display: block;
-    float: left;
-    padding: 3px;
-    
-
 }
 .limpa_float2{
     clear: both;
