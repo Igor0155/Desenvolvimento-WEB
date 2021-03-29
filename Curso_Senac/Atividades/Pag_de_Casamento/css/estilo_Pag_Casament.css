@@ -1,7 +1,9 @@
 
 
 /*-- Barra de Navegação (MENU) --*/
-
+body{
+    background-color: #F1F2ED;
+}
 #menu {
     padding: auto;
     list-style-type: none;
