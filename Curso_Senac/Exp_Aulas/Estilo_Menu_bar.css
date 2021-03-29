@@ -9,7 +9,7 @@
     font-family: montserrat;
   }
   nav{
-    background: #0082e6;
+    background: -webkit-linear-gradient(#1271ff, #01ffd1); 
     height: 80px;
     width: 100%;
   }
@@ -69,7 +69,7 @@
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #2c3e50;
+      background: -webkit-linear-gradient(#1271ff, #01ffd1);
       top: 80px;
       left: -100%;
       text-align: center;
@@ -85,7 +85,7 @@
     }
     a:hover,a.active{
       background: none;
-      color: #0082e6;
+      color: #01317a;
     }
     #check:checked ~ ul{
       left: 0;
@@ -96,4 +96,11 @@
     background-size: cover;
     height: calc(100vh - 80px);
   }
+/*______________Texto__________________________*/
+#texto{
+  background: -webkit-linear-gradient(#1271ff, #01ffd1); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
   
