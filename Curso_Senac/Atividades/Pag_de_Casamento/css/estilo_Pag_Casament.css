@@ -145,8 +145,6 @@ body{
     border-bottom: 1px solid rgb(209, 154, 16);;
     font-size: 0.75em;
     padding: 20px;
-    
-    
 }
 #msm_3{
     width: 280px;
@@ -175,9 +173,6 @@ body{
     border-bottom: 1px solid rgb(209, 154, 16);
     font-size: 0.75em;
     padding: 20px;
-}
-.cor_linha{
-    color-adjust:rgb(255, 4, 4);
 }
 #texto ul{
 
@@ -220,8 +215,8 @@ body{
 
 }
 #col1{
-    padding: 1px 50px 20px 50px;
-    margin: 20px 10px 20px;
+    padding: 1px 50px 20px;
+    margin: 20px 10px ;
     list-style-type: none;
     font-size: 1em;
 
