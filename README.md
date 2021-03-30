@@ -9,8 +9,10 @@ Repositorio destinado a aplicações  web
   
 ## [__Curso Udemy__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy)
    
-   - [Projetos](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos)
+  - [Projetos](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos)
         
-        [exemplo]()
+    - [Anna Bella](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto2_Anna_Bella)
+
+  - [HTML](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/html)
 
 
