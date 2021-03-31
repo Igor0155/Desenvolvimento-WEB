@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Menu e logo*/
+.Header_topo {
+    width: 100%;
+    background-color: rgb(221, 217, 217);
+}
+
+#topo {
+    width: 900px;
+    height: 90px;
+    margin: auto;
+
+}
+#logo {
+ padding: 20px 10px 5px 10px;
+    float: left;
+}
+#menu{
+    display: inline;
+    float: right;
+}
+#menu ul{
+    list-style-type: none;
+    padding: 30px 5px;
+}
+#menu ul li{
+    display: inline;
+    padding: 10px;
+}
+#menu ul li:hover{
+    background: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+/*Corpo da pagina*/
+
+#corpo{
+    width: 900px;
+    margin: auto;
+    
+}
+
+#titulo {
+    padding: 20px 0px;
+}
+
+.texto{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+#rodape_home{
+    border-top: 1px solid black;
+    margin-top: 8%;
+    width: 100%;
+    background: rgb(221, 217, 217);
+    text-align: center;
+    padding: 50px 0px;
+}
+/*------------------------------Pagina de Qeum somos___________________________*/
+
+.titulos{
+    padding: 25px 0px;
+}
+
+#listas{
+    padding: 10px 10px 30px;
+    list-style-position: inside;
+}
+
+#rodape_quem_somos{
+    border-top: 1px solid black;
+    margin-top: 8%;
+    width: 100%;
+    background: rgb(221, 217, 217);
+    text-align: center;
+    padding: 50px 0px;
+}
+/*------------------------------Pagina de contato___________________________*/
+
+fieldset{
+    margin: 1em 0;
+    padding: 1.5em;
+    border: 1px solid rgb(122, 114, 114);
+    background: #9e9c9c71;
+}
+
+legend{
+    font-weight: bold ;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    height: 20px;
+}
+
+#botao{
+    width: 50%;
+    height: 30px;
+    margin-left: 250px;
+}
+
+#rodape_contato{
+    border-top: 1px solid black;
+    margin-top: 13%;
+    width: 100%;
+    background: rgb(221, 217, 217);
+    text-align: center;
+    padding: 50px 0px;
+}
