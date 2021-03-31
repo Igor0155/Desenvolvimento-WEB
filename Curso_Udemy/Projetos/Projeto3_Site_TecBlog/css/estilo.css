@@ -1,0 +1,155 @@
+/*---------Menu RODAPE-----*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #e6e6e6;
+}
+#topo {
+    background-color: rgb(255, 196, 0);
+    width: 98.4%;
+    margin: auto;
+    padding: 10px;
+  
+}
+#topo h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 2.3em;
+    
+}
+#topo h1 span {
+    color: rgb(83, 78, 78);
+}
+#menu_topo ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    
+}
+#menu_topo ul li{
+    display: inline;
+    padding: 5px 10px;
+    font-size: 1.2em;
+   
+}
+#menu_topo ul li a{
+    text-decoration: none;
+
+    color:white;
+    font-weight: bold;
+    
+}
+#menu_topo ul li:hover{
+    background: rgb(168, 163, 163);
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+/*---------Postagens recentes e Categorias-----*/
+
+#postagens {
+    width: 25%;
+    float: right;
+    margin: 40px 8% 20px 5px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+
+}
+#categorias {
+    clear: both;
+    width: 25%;
+    float: right;
+    padding: 5px 20px;
+    margin: 40px 8% 20px 0px;
+    box-sizing: border-box;
+  
+   
+}
+#postagens h2{
+    background-color: rgb(172, 166, 166);
+    padding: 5px;
+}
+#postagens p{
+    width: 100%;
+    padding: 0px 5px;
+}
+#categorias h2 {
+    background-color: rgb(172, 166, 166);
+    padding: 5px;
+}
+#categorias ul{
+    list-style-type: none;
+    padding: 2px 5px;
+    font-size: 1.2em;
+    
+}
+#categorias ul li{
+    padding: 5px;
+    width: 60%;
+
+}
+#categorias ul li a{
+    text-decoration: none;
+    color:rgb(255, 196, 0);
+    font-weight: bold;
+    
+}
+#categorias ul li:hover{
+    background: rgb(168, 163, 163);
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+/*---------Postagem 1,2,3,4,5 e  texto-----*/
+
+.postagens {
+
+    max-width: 700px;
+    margin: 40px 35% 40px 13%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.titulo{
+    font-size: 1.6em;
+    font-weight: bold;
+    color:rgb(255, 196, 0);
+}
+.titulo span{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.textos_Postagem{
+    width: 640px;
+    text-align: justify;
+}
+.data_postagem {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+/*---------Rodape-----*/
+#rodape{
+    text-align: center;
+    background: silver;
+    padding: 20px;
+    border-top: 2px solid rgb(95, 93, 93);
+}
+.links{
+    text-decoration: none;
+    color:rgb(255, 196, 0);
+    font-weight: bold;
+}
+.links:hover{
+    color: blue;
+}
+
