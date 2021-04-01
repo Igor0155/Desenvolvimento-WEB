@@ -17,7 +17,7 @@ Repositorio destinado a aplicações  web
 
   - [HTML](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/html)
   
-## [_Meus Projetos_](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web)
+## [__Meus Projetos__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web)
   
-  -[LinkTree](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web/LinkTree)
+  - [LinkTree](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web/LinkTree)
     
