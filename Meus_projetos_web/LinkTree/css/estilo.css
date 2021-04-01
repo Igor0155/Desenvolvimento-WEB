@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Definindo a altura da pagian para rodape ficar sempreno final*/
+html{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: url("../img/fundo.jpg") no-repeat left top fixed;
+    background-size: auto;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+@media (max-width: 700.9px){
+
+    
+    #Corpo{
+        background: -webkit-linear-gradient(#1271ff, #01ffd1);
+        border: 1px solid rgb(30, 30, 255);
+        max-width: 500px;
+        width: 90%;
+        height: 630px;
+        margin: 10% auto;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+    #img{
+        text-align: center;
+        padding: 10px;
+    }
+    #img img{
+        border-radius: 50%;
+    }
+    #perfil{
+        padding: 5px;
+        text-align: center;
+        background: white;
+        font-weight: bold ;  
+    }
+    #perfil a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #lista {
+        text-align: center;
+     
+        width: 90%;
+        margin: 20px auto;
+    }
+    #lista ul{
+        list-style-type: none;
+       
+    }
+    #lista ul li{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 2px 0px;
+        /*background*/
+    }
+    .links{
+        border: 1px solid blue;
+        background: #34e8eb;
+        border-radius: 10px;
+        text-decoration: none;
+        display: block;
+        padding: 22px;
+        margin: 7px;
+    }
+    .links:hover{
+        border-radius: 50px;
+        color: #000000;
+        background:#4ca6fa;
+    }
+    #Rodape{
+        margin-top: auto;
+        width: 100%;
+        padding: 20px 0px;
+        text-align: center;
+        color: white;
+        background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+        font-weight: bolder;
+    }
+    #Spans{
+        font-weight: normal;
+    }
+
+}
+
+@media(min-width:701px){
+
+    #Corpo{
+        background: -webkit-linear-gradient(#1271ff, #01ffd1);
+        border: 1px solid rgb(30, 30, 255);
+        min-width: 500px;
+        max-width: 600px;
+        width: 40%;
+        height: 630px;
+        margin: 130px auto;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+    #img{
+        text-align: center;
+        padding: 10px;
+    }
+    #img img{
+        border-radius: 50%;
+    }
+    #perfil{
+        padding: 5px;
+        text-align: center;
+        background: white;
+        font-weight: bold ;  
+    }
+    #perfil a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #lista {
+        text-align: center;
+     
+        width: 90%;
+        margin: 20px auto;
+    }
+    #lista ul{
+        list-style-type: none;
+       
+    }
+    #lista ul li{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 2px 0px;
+        /*background*/
+    }
+    .links{
+        border: 1px solid blue;
+        background: #34e8eb;
+        border-radius: 10px;
+        text-decoration: none;
+        display: block;
+        padding: 22px;
+        margin: 7px;
+    }
+    .links:hover{
+        border-radius: 50px;
+        color: #000000;
+        background:#4ca6fa;
+    }
+    #Rodape{
+
+        width: 100%;
+        margin-top: auto;
+        padding: 20px 0px;
+        text-align: center;
+        color: white;
+        background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+        font-weight: bolder;
+    }
+    #Spans{
+        font-weight: normal;
+    }
+}
