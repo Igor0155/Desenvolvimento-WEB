@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#e0d9d0;
+}
+/* ------------------ Menu-------------*/
+#Menu {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #22150F url("../img/Fundo3.png") repeat-x right top fixed;
+}
+#Logo{
+    margin: auto;
+    margin-left: 6%;
+    width: 250px;
+    display: flex;
+    
+}
+#Busca{
+    width: 550px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+.Form{
+    width: 550px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color: #180C08;
+    color: #d3c6ae;
+}
+#Busca a {
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 5px;
+}
+#Logo_compras{
+
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+/* ------------------ Banner e Navegacao-------------*/
+#Navegacao{
+    display: flex;
+    width: 100%;
+    background-color: #352727;
+    justify-content: space-evenly;
+}
+#Navegacao div{
+    width: 600px;
+}
+.Lista_1{
+    display: inline;
+    margin: 20px;
+    float: left;
+    color: #d3c6ae;
+}
+.Lista_2 {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    color: #d3c6ae;   
+}
+.Lista_2 a{
+    color: #d3c6ae;
+}
+#Banner {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    
+}
+#Banner img{
+    width: 100%;
+    max-width: 1350px;
+}
+.Img{
+    background-color: #EAD4BD;
+}
+
+/* ------------------ 4 circulos-------------*/
+#Section_1{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Textos-Ovos_Dream{
+    height: 300px;
+    text-align: center;
+    color: #805547;
+}
+.Textos-Ovos_Dream span{
+    border: 1px  solid #80594c;
+    border-radius: 10px;
+    position: relative;
+    top:10px;
+    padding: 10px;
+}
+.Circle{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 100%;
+    text-align: center;
+}
+/* ------------------ Secion 2 textos e barra lateral-------------*/
+#Section_2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Lateral{
+    width: 500px;
+    height: 500px;
+    padding: 0px 10px 10px 10px;
+    margin: auto;
+    margin-left: 15px;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#Lateral div{
+    width: 95%;
+    height: 155px;
+    margin: 1px 5px 10px 5px;
+    background-color: white;
+}
+
+#Bloco2{
+    margin-right: 5px;
+    width: 574px;
+    height: 421px;
+    margin: auto;
+    box-sizing: border-box;
+   
+}
+/* ------------------ Section3 4 Qadrados-------------*/
+#Text_produtos{
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+#Text_produtos p i{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #474542;
+}
+#Span{
+    font-size: 1.2em;   
+    color: #474542;
+}
+
+#Section_3{
+    clear: both;
+    width: 90%;
+    margin: auto;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.Quadrado{
+    width: 245px;
+    height: 340px;
+    text-align: center;
+    margin: 15px;
+   border: 5px solid black;
+}
+/* ------------------ Footer-------------*/
+#Rodape{
+    width: 100%;
+    background-color: #6DA276;
+    margin-top: 50px;
+    height: 180px;
+    display: flex;
+}
+#Direitos{
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 30%;
+    font-size: 0.6em;
+    text-align: justify;
+}
+#Logo_2{
+    margin-left: 10%;
+    width: 250px;
+    margin-top: 50px;
+}
+#Social{
+    margin-top: 53px;
+    margin-left: 10%;
+    width: 190px;
+}
+#Social li{
+    display: inline;
+    padding: 10px;
+}
+
