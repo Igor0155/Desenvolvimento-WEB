@@ -18,7 +18,6 @@ body{
     margin-left: 6%;
     width: 250px;
     display: flex;
-    
 }
 #Busca{
     width: 550px;
@@ -26,7 +25,6 @@ body{
     display: flex;
     margin: auto;
     border-radius: 10px;
-    
 }
 .Form{
     width: 550px;
@@ -45,8 +43,7 @@ body{
     width: 100px;
     height: 60px;
     margin: auto;
-    padding-top: 15px;
-    
+    padding-top: 15px;   
 }
 /* ------------------ Banner e Navegacao-------------*/
 #Navegacao{
@@ -97,11 +94,14 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
 }
 .Textos-Ovos_Dream{
     height: 300px;
     text-align: center;
     color: #805547;
+    padding: 5px;
+    border: 1px solid #e0d9d0;
 }
 .Textos-Ovos_Dream span{
     border: 1px  solid #80594c;
@@ -110,6 +110,9 @@ body{
     top:10px;
     padding: 10px;
 }
+.Textos-Ovos_Dream p{
+    font-size: small;
+}
 .Circle{
     width: 150px;
     height: 150px;
@@ -117,6 +120,11 @@ body{
     border-radius: 100%;
     text-align: center;
 }
+.Textos-Ovos_Dream:hover{
+    border: 1px solid #80594c;
+    border-radius: 10px;
+}
+
 /* ------------------ Secion 2 textos e barra lateral-------------*/
 #Section_2 {
     width: 90%;
@@ -126,7 +134,6 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 #Lateral{
     width: 500px;
     height: 500px;
@@ -137,22 +144,33 @@ body{
     box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 #Lateral div{
     width: 95%;
     height: 155px;
-    margin: 1px 5px 10px 5px;
-    background-color: white;
+    margin: 20px auto 0px 
+}
+#Lateral p{
+    width: 120px;
+    position:relative;
+    bottom: 90px;
+    margin-left: 170px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+}
+#Lateral span{
+    font-size: 1.7em;
 }
 
 #Bloco2{
     margin-right: 5px;
-    width: 574px;
-    height: 421px;
+    width: 583px;
+    height: 430px;
     margin: auto;
     box-sizing: border-box;
-   
+    border: 5px solid #80594c;
 }
 /* ------------------ Section3 4 Qadrados-------------*/
 #Text_produtos{
@@ -170,7 +188,6 @@ body{
     font-size: 1.2em;   
     color: #474542;
 }
-
 #Section_3{
     clear: both;
     width: 90%;
@@ -182,21 +199,26 @@ body{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    
 }
-.Quadrado{
+.Quadrado img{
     width: 245px;
     height: 340px;
     text-align: center;
     margin: 15px;
-   border: 5px solid black;
+    border: 5px solid #80594c;
+}
+.Quadrado img:hover{
+    width: 275px;
+    height: 370px;
+    margin: 0px;
+   
 }
 /* ------------------ Footer-------------*/
 #Rodape{
     width: 100%;
     background-color: #6DA276;
     margin-top: 50px;
-    height: 180px;
+    height: auto;
     display: flex;
 }
 #Direitos{
@@ -211,13 +233,23 @@ body{
     width: 250px;
     margin-top: 50px;
 }
+#Logo_2 img:hover{
+    width:230px;
+}
 #Social{
-    margin-top: 53px;
+    margin-top: 50px;
     margin-left: 10%;
-    width: 190px;
+    width: 210px;
+    padding: 15px;
+    padding-bottom: 5px;
 }
 #Social li{
     display: inline;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+#Social img:hover{
+    padding-bottom: 5px;
+    border-bottom: 1px solid white ;
 }
 
