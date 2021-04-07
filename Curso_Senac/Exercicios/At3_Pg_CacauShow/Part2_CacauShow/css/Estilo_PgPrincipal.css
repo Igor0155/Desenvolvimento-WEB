@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    background-color:#e0d9d0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* ------------------ Menu-------------*/
+#Menu {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #22150F url("../img/Fundo3.png") repeat-x right top fixed;
+}
+#Logo{
+    margin: auto;
+    margin-left: 6%;
+    width: 250px;
+    display: flex;
+}
+#Busca{
+    width: 550px;
+    height: 40px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+.Form{
+    width: 550px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color: #180C08;
+    color: #d3c6ae;
+}
+#Busca a {
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 5px;
+}
+#Logo_compras{
+
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    padding-top: 15px;   
+}
+/* ------------------ Banner e Navegacao-------------*/
+#Navegacao{
+    display: flex;
+    width: 100%;
+    background-color: #352727;
+    justify-content: space-evenly;
+}
+#Navegacao div{
+    width: 600px;
+}
+.Lista_1{
+    display: inline;
+    margin: 20px;
+    float: left;
+    color: #d3c6ae;
+}
+.Lista_2 {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    color: #d3c6ae;   
+}
+.Lista_2 a{
+    color: #d3c6ae;
+}
+#Banner {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    
+}
+#Banner img{
+    width: 100%;
+    max-width: 1350px;
+}
+.Img{
+    background-color: #EAD4BD;
+}
+
+/* ------------------ 4 circulos-------------*/
+#Section_1{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+}
+.Textos-Ovos_Dream{
+    height: 300px;
+    text-align: center;
+    color: #805547;
+    padding: 5px;
+    border: 1px solid #e0d9d0;
+}
+.Textos-Ovos_Dream span{
+    border: 1px  solid #80594c;
+    border-radius: 10px;
+    position: relative;
+    top:10px;
+    padding: 10px;
+}
+.Textos-Ovos_Dream p{
+    font-size: small;
+}
+.Circle{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 100%;
+    text-align: center;
+}
+.Textos-Ovos_Dream:hover{
+    border: 1px solid #80594c;
+    border-radius: 10px;
+}
+
+/* ------------------ Secion 2 textos e barra lateral-------------*/
+#Section_2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#Lateral{
+    width: 500px;
+    height: 500px;
+    padding: 0px 10px 10px 10px;
+    margin: auto;
+    margin-left: 15px;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#Lateral div{
+    width: 95%;
+    height: 155px;
+    margin: 20px auto 0px 
+}
+#Lateral p{
+    width: 120px;
+    position:relative;
+    bottom: 90px;
+    margin-left: 170px;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+}
+#Lateral span{
+    font-size: 1.7em;
+}
+
+#Bloco2{
+    margin-right: 5px;
+    width: 583px;
+    height: 430px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 5px solid #80594c;
+}
+/* ------------------ Section3 4 Qadrados-------------*/
+#Text_produtos{
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+#Text_produtos p i{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #474542;
+}
+#Span{
+    font-size: 1.2em;   
+    color: #474542;
+}
+#Section_3{
+    clear: both;
+    width: 90%;
+    margin: auto;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Quadrado img{
+    width: 245px;
+    height: 340px;
+    text-align: center;
+    margin: 15px;
+    border: 5px solid #80594c;
+}
+.Quadrado img:hover{
+    width: 275px;
+    height: 370px;
+    margin: 0px;
+   
+}
+/* ------------------ Footer-------------*/
+#Rodape{
+    width: 100%;
+    background-color: #6DA276;
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+}
+#Direitos{
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 30%;
+    font-size: 0.6em;
+    text-align: justify;
+}
+#Logo_2{
+    margin-left: 10%;
+    width: 250px;
+    margin-top: 50px;
+}
+#Logo_2 img:hover{
+    width:230px;
+}
+#Social{
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 210px;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+#Social li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+#Social img:hover{
+    padding-bottom: 5px;
+    border-bottom: 1px solid white ;
+}
+
+/*_______________________________________Pagina 2__________________________________*/
+
+.Section1{
+    clear: both;
+    width: 90%;
+    height: 530px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+.Info{
+    width: 300px;
+    margin-top: 50px;
+}
+.Info li{
+    display: inline;
+    padding: 15px;
+    padding-left: 0px;
+    font-size: large;
+}
+.Info_Ovo{
+    padding: 0px;
+    padding-top: 30px;
+    font-size: 2em;
+    color: #722E0F;
+    margin-bottom: 25px;
+    font-style: oblique;
+}
+.Info_Ovo span{
+    font-size: medium;
+}
+#Estrela{
+    padding: 5px;
+    color: #FF8105;
+    font-size: 1.5em;
+}
+/*________Imagem ddo ovo de pascoa _________*/
+.Ovo_img{
+    width: 400px;
+}
+.Ovo_preco{
+    margin-top: 50px;
+    width: 350px;
+    height: 300px;
+}
+#preco{
+    font-style: oblique;
+    font-size:2.5em;
+    padding: 10px;
+    color: #722E0F;
+}
+#Promo{
+    font-style: oblique;
+    width: 340px;
+    height: 50px;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px;
+    color: green;
+}
+#Carrinho{
+    border: 1px  solid #80594c;
+    border-radius: 10px;
+    width: 215px;
+    float: right;
+    display: block;
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #B6D66D;
+    color: #703822;
+}
+#Quanti{
+    border: 1px  solid #80594c;
+    width: 90px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    float: left;
+}
+#Quanti p{
+    font-size: 1.3em ;
+}
+#Quanti span{
+    padding-right:  15px;
+}
+
+/*_________________Informacoes ________________*/
+
+.Descricao{
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.Descricao h1{
+    padding: 20px;
+}
+.Descricao p{
+    padding: 5px;
+}
