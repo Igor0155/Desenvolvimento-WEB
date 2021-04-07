@@ -3,7 +3,7 @@ Repositório destinado a aplicações  web
 
 ## [__Curso Senac__](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_Senac)
 
-  - [Exercicios](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_Senac/Atividades)
+  - [Exercicios](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios)
 
   - [HTML](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_Senac/HTML)
   
