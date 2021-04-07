@@ -5,7 +5,7 @@ Repositório destinado a aplicações  web
 
   - [Exercicios](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios)
 
-  - [HTML](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_Senac/HTML)
+  - [HTML e CSS](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML%20e%20CSS)
   
   - [JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/JavaScript)
   
