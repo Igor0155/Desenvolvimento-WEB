@@ -37,15 +37,28 @@ body{
     float: left;
     line-height: normal;
     align-items: center;
-    background: rgb(177, 13, 13) url(../img/divisor.png) no-repeat center left ;
+    background: rgb(177, 13, 13) url(../img/divisor.png) no-repeat left center;
 }
 #Menu a {
     padding: 10px 33.39px;
     color: white;
 }
+#Menu ul .primeiro_da_lista {
+    background: none;
+    background-color: rgb(177, 13, 13);
+}
+#Menu ul .primeiro_da_lista a:hover{
+    background: none;
+    background-color: rgb(207, 40, 40);
+}
 #Menu a:hover{
     background: rgb(207, 40, 40) url(../img/divisor.png) no-repeat center left ;
 }
+
+body.Home #navegacao a#Home{
+    color: white;
+    background: rgb(207, 40, 40);
+}   
 
 /*-----------------Pagina de conteudo--------------------------------------*/
 
@@ -117,8 +130,9 @@ body{
     height: 430px;
     margin-left: 30px;
     margin-top: 20px;
+    
 }
-.Blocos h3{
+.Titulo{
     margin: 10px 0px;
     padding: 5px;
     background: rgb(136, 19, 19);
@@ -128,7 +142,20 @@ body{
     font-size: 1.03em;
     margin: 3px 0px 10px 0px;
 }
-
+.Conteudo_blocos{
+    margin-top: 20px;
+}
+.Conteudo_blocos img{
+    float: left;
+    padding: 5px 5px 5px 0px;
+    margin-right: 9px;
+}
+.Texto_blocos{
+    padding: 5px 0px 0px 0px;
+}
+.Textos_conteudo{
+    text-align-last:center;
+}
 
 
 /*Rodape */
@@ -136,13 +163,17 @@ body{
 #Rodape {
     clear: both;
     width: 100%;
-    background: rgb(112, 112, 112);
+    background: #294C71;
 }
 
 #Rodape div{
     width: 40%;
-    height: 50px;
+    height: 70px;
     margin: auto;
+    padding-top: 20px;
     text-align: center;
+    font-size: large;
+    color: white;
+
 }
 
