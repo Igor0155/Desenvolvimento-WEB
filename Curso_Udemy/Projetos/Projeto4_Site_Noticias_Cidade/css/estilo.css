@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+   background: white;
+}
+
+#Topo{
+    width: 100%;
+    height: 230px;    
+    background: #294C71 url(../img/fundo.png) repeat-x bottom left;
+}
+#Container_Topo{
+    height: 180px;
+    width: 70%;
+    margin: auto;
+    background: #294C71 url(../img/detalhe-topo.png) no-repeat top right;
+}
+#Logo{
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#Menu{
+    width: 89%;
+    height: 50px;
+    clear: both;
+    text-align: center;
+}
+#Menu li{
+    display:flex;
+    float: left;
+    line-height: normal;
+    align-items: center;
+    background: rgb(177, 13, 13) url(../img/divisor.png) no-repeat center left ;
+}
+#Menu a {
+    padding: 10px 33.39px;
+    color: white;
+}
+#Menu a:hover{
+    background: rgb(207, 40, 40) url(../img/divisor.png) no-repeat center left ;
+}
+
+/*-----------------Pagina de conteudo--------------------------------------*/
+
+#container_pag{
+    width: 80%;
+    margin: auto;
+}
+#Entrevistas{
+    float: left;
+    width: 20%;
+}
+.Lateral{
+    width: 100%;
+    margin-top: 20px;
+}
+.Titulos{
+    width: 100%;
+    line-height: normal;
+    padding: 5px;
+    background: #183555;
+    color: white;
+    padding-left: 10px;
+}
+
+.Lateral li a{
+    display: flex;
+    padding: 15px;
+    padding-left: 7px;
+    color: black
+}
+.Link_lateral:hover{
+    background: white url(../img/marcador.png) no-repeat center left;
+    padding-left: 25px;
+    border-radius: 5px;
+    color: rgb(138, 138, 138);
+}
+#Input p{
+    padding: 15px 82px 3px;
+}
+#Email{
+    width: 90%;
+    height: 30px;
+    margin-left: 11px;
+    border: 1px solid rgb(53, 53, 146);
+}
+#Botao{
+    height: 35px;
+    width: 100px;
+    margin-left: 55px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    font-size: 1em;
+}
+
+
+/*Conteudos da pagina */
+
+
+#Conteudo{
+    width: 78%;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Blocos{
+    width: 350px;
+    height: 430px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.Blocos h3{
+    margin: 10px 0px;
+    padding: 5px;
+    background: rgb(136, 19, 19);
+    color: rgb(255, 255, 255);
+}
+.Blocos p{
+    font-size: 1.03em;
+    margin: 3px 0px 10px 0px;
+}
+
+
+
+/*Rodape */
+
+#Rodape {
+    clear: both;
+    width: 100%;
+    background: rgb(112, 112, 112);
+}
+
+#Rodape div{
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
