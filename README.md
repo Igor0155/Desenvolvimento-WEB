@@ -16,6 +16,7 @@ Repositório destinado a aplicações  web
     - [UNES](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto1_Pag_UNES)
     - [Anna Bella](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto2_Anna_Bella)
     - [TecBolg](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto3_Site_TecBlog)
+    - [Noticia Cidade](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto4_Site_Noticias_Cidade)
 
   - [HTML](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/html)
   
