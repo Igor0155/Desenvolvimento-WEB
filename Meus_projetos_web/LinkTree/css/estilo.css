@@ -9,9 +9,8 @@ html{
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    background: url("../img/fundo.jpg") no-repeat left top fixed;
-    background-size: auto;
-    background-attachment: fixed;
+   
+    background-size: 2000px;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -19,14 +18,18 @@ body{
 
 @media (max-width: 700.9px){
 
-    
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("../img/fundo_doctor_strange.jpg") no-repeat top center;
+        background-color:black;
+        background-size: 500px
+    }
     #Corpo{
-        background: -webkit-linear-gradient(#1271ff, #01ffd1);
-        border: 1px solid rgb(30, 30, 255);
+        background-size: 500px;
         max-width: 500px;
         width: 90%;
         height: 630px;
-        margin: 10% auto;
+        margin: 7% auto;
         border-radius: 50px;
         box-sizing: border-box;
     }
@@ -37,26 +40,25 @@ body{
     #img img{
         border-radius: 50%;
     }
+    #image{
+        width: 180px;
+    }
     #perfil{
         padding: 5px;
         text-align: center;
-        background: white;
         font-weight: bold ;  
     }
     #perfil a{
         text-decoration: none;
-        color: black;
+        color: white;
     }
-
     #lista {
         text-align: center;
-     
         width: 90%;
         margin: 20px auto;
     }
     #lista ul{
         list-style-type: none;
-       
     }
     #lista ul li{
         text-transform: uppercase;
@@ -65,18 +67,26 @@ body{
         /*background*/
     }
     .links{
-        border: 1px solid blue;
-        background: #34e8eb;
-        border-radius: 10px;
+        /*border: 2px solid rgb(170, 170, 170);
+        background:rgba(165, 165, 165, 0.185);
+        border: 2px solid #EA1646 */
+        border: 2px solid white;
+        background: #ea164728;
+        border-radius: 40px;
+        color:rgb(255, 254, 254);
         text-decoration: none;
         display: block;
         padding: 22px;
-        margin: 7px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
     }
     .links:hover{
-        border-radius: 50px;
+        border-radius: 40px;
+        border: 2px solid white;
         color: #000000;
-        background:#4ca6fa;
+        background: #fff;
+        margin-bottom: 10px;
     }
     #Rodape{
         margin-top: auto;
@@ -84,25 +94,29 @@ body{
         padding: 20px 0px;
         text-align: center;
         color: white;
-        background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+        background: #ff003c42;
         font-weight: bolder;
     }
-    #Spans{
+    .Spans{
         font-weight: normal;
     }
 
 }
 
 @media(min-width:701px){
-
+    
+    body{
+        background:linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)),
+        url("../img/fundo2_doctor.jpg") no-repeat center center;
+        background-size: 1920px 1080px;
+        background-color:#170420;
+    }
     #Corpo{
-        background: -webkit-linear-gradient(#1271ff, #01ffd1);
-        border: 1px solid rgb(30, 30, 255);
         min-width: 500px;
         max-width: 600px;
         width: 40%;
         height: 630px;
-        margin: 130px auto;
+        margin: 100px auto;
         border-radius: 50px;
         box-sizing: border-box;
     }
@@ -112,27 +126,27 @@ body{
     }
     #img img{
         border-radius: 50%;
+        border: 2px solid rgba(255, 0, 64, 0.432);
+    }
+    #image{
+        width: 200px;
     }
     #perfil{
         padding: 5px;
         text-align: center;
-        background: white;
-        font-weight: bold ;  
+        font-weight: bold;  
     }
     #perfil a{
         text-decoration: none;
-        color: black;
+        color: white;
     }
-
     #lista {
         text-align: center;
-     
         width: 90%;
         margin: 20px auto;
     }
     #lista ul{
         list-style-type: none;
-       
     }
     #lista ul li{
         text-transform: uppercase;
@@ -141,30 +155,36 @@ body{
         /*background*/
     }
     .links{
-        border: 1px solid blue;
-        background: #34e8eb;
-        border-radius: 10px;
+        border: 2px solid #EA1646;
+        background: #ea164728;
+        border-radius: 50px;
         text-decoration: none;
         display: block;
+        color:rgb(255, 254, 254);
         padding: 22px;
-        margin: 7px;
+        margin-bottom: 20px;
     }
     .links:hover{
         border-radius: 50px;
         color: #000000;
-        background:#4ca6fa;
+        background: white;
+        border: 2px solid rgb(0, 255, 255);
     }
     #Rodape{
-
         width: 100%;
         margin-top: auto;
         padding: 20px 0px;
         text-align: center;
         color: white;
-        background-image: url('https://1.bp.blogspot.com/-fpQX8a_7HK4/Xo6UE3HhHgI/AAAAAAAAGxw/-l8ycMvFMOMPog0BgP_5aa8p7M9Ua1dqwCLcBGAsYHQ/s1600/wall.png');
+        background: #420000e0;
+        /*background: -webkit-linear-gradient(  #141414, #1d1d1d);*/
         font-weight: bolder;
     }
-    #Spans{
+    .Spans{
         font-weight: normal;
     }
+
 }
+
+
+/*  Definir so um display para ser responsivo e defini so q tiver errado dentro do @media*/
