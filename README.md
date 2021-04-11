@@ -24,7 +24,7 @@ Repositório destinado a aplicações  web
     * [TecBolg](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto3_Site_TecBlog)
     * [Notícia Cidade](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto4_Site_Noticias_Cidade)
 
-  - [HTML](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/html)
+  - [HTML e CSS](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/html)
   
 ## [__Meus Projetos__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web)
   
