@@ -25,7 +25,7 @@ Repositório destinado a aplicações  web
     * [Notícia Cidade](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto4_Site_Noticias_Cidade)
     * [Chalé Hotel](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Projetos/Projeto5_Chale_Hotel)
 
-  - [HTML e CSS](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/html)
+  - [HTML e CSS](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/HTML%20e%20CSS)
   
 ## [__Meus Projetos__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web)
   
