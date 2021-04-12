@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: Barbarian;
+    src: url(../font/Barbarian.woff);
+}
+@font-face {
+    font-family: HarryP;
+    src: url(../font/HarryP.woff);
+}
+@font-face {
+    font-family: KGHAPPY;
+    src: url(../font/KGHAPPY.woff);
+}
+@font-face {
+    font-family: SFDistantGalaxy;
+    src: url(../font/SFDistantGalaxy.woff);
+}
+
+#Font1{
+    font-size: 4em;
+    font-family: Barbarian;
+    color: rgb(112, 42, 2);
+    text-align: center;
+}
+#Font2{
+    font-size: 4em;
+    font-family: HarryP;
+    color: rgb(2, 9, 109);
+    text-align: center;
+}
+#Font3{
+    font-size: 4em;
+    font-family: KGHAPPY;
+    color: red;
+    text-align: center;
+}
+#Font4{
+    font-size: 4em;
+    font-family: SFDistantGalaxy;
+    text-align: center;
+
+}
