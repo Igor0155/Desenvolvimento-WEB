@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--Estilo CSS-->
+    <link rel="stylesheet" href="css/estilo_index.css">
+
+    <!--HTML5 Shiv-->
+    <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+
+    <title>Museu Nacional</title>
+
+</head>
+
+    <body>
+
+        <header id="Topo">
+
+            <div id="Logo">
+                <img src="img/logo.png" alt="">
+            </div>
+
+            <nav id="Navegacao">
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Exposição</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contatos</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="Clean"></div>
+
+        </header>
+
+        <div id="Container">
+
+            <div id="Corpo">
+
+                <aside id="Lateral">
+
+                    <div id="Img_lateral">
+                        <img src="img/depoimento.png" alt="" >
+                    </div>
+
+                    <div id="Input">
+                
+                        <h3>FAÇA UMA VISITA</h3>
+
+                        <form >
+                
+                            <label id="Texto_input" for="Data">Data</label>
+                            <input type="date" id="Time">
+
+                            <label for="Pessoas">Qtd Pessoas</label>
+                            <input type="Number" min="1" placeholder="1" id="Qtd">
+
+                            <br><br>
+                            <input type="submit" id="button" value="Verificar Disponibilidade">
+
+
+                        </form>
+                
+                    </div>
+
+                    <div id="Galeria_fotos">
+
+                        <h3>Galeria de Fotos</h3>
+
+                        <table id="Tabela"  width=100%>
+                            
+                            <tr>
+                                <td><img src="img/imagem1.jpg" alt="ERRO"></td>
+                                <td><img src="img/imagem2.jpg" alt="ERRO"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="img/imagem3.jpg" alt="ERRO"></td>
+                                <td><img src="img/imagem4.jpg" alt="ERRO"></td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                
+                </aside>
+
+
+                <section id="Conteudo">
+                    
+                    <div id="Img2">
+                        <img id="Img_central" src="img/museu.png" alt="">
+                        
+                    </div>
+
+                    <div class="Clean"></div>
+
+                    <div class="Blocos">
+                        
+                        <h2>Video: Conheça o Museu</h2>
+
+                        <iframe width="330" height="250" src="https://www.youtube.com/embed/RGUYb-hivrc" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; 
+                        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                        </iframe>
+
+                        <h2>Exposições</h2>
+
+                        <ul id="Lista">
+                        
+                            <li>Os assustadores insetos</li>
+                            <li>O crânio de Luzia, a mulher mais antiga do  brasil</li>
+                            <li>Preguiça gigante e tigre-dente-de-sabre</li>
+                            <li>Plantas do Brasil Central</li>
+                            <li>Teresa Cristina: A Imperatriz Arqueóloga</li>
+                            <li>Arte Com Dinossauros - Paleoarte</li>
+                            <li><a href="#">Veja todos (65)</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="Blocos">
+                        
+                        <h2>Mapa: Encontre o Museu</h2>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1618258948812!5m2!1spt-BR!2sbr" 
+                            width="330" height="250" style="border:0;" allowfullscreen loading="lazy">
+                        </iframe>
+
+                        <h2>200 Anos de história</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a
+                            type specimen book.
+                            Lorem Ipsum is simply dummy 
+                        </p>
+                        <p id="Link">
+                            <a href="#">Leia mais... </a>
+                        </p>
+
+                    </div>
+
+                </section>
+
+                <div class="Clean"></div>
+                
+            </div>
+
+        </div>
+
+        <footer id="Footer">
+
+            <nav id="Navegacao2">
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Exposição</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contatos</a></li>
+
+                </ul>
+
+            </nav>
+
+            <p>
+                &copy; 2021 <span>Museu Nacional</span> - Todos os direitos reservados.
+            </p>
+        </footer>
+
+    </body>
+
+</html>

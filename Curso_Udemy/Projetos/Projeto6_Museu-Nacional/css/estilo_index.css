@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+    min-height: 100%;
+    background:  #f4f2ee;
+    font-family: 'Overpass', sans-serif;
+}
+/*________________Topo__________________*/
+#Topo{
+    background: #252217;
+    width: 100%;
+    margin-top: 0px;
+    border: 1px solid #252217;
+}
+#Logo{
+    width: 300px;
+    padding-top: 40px;
+    margin-left: 10%;
+    
+}
+#Navegacao{
+    float: right;
+    width: 50%;
+    height: 50px;
+    margin-right: 5%;
+    margin-top: -40px;
+    margin-bottom: 45px;
+}
+#Navegacao ul{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#Navegacao a{
+    padding: 10px 10px;
+    color: #A86E13;
+    text-transform: uppercase;
+}
+#Navegacao a:hover{
+    background-color:#9c9174;
+    color: white;
+    border-radius: 5px;
+}
+.Clean{
+    clear: both;
+}
+
+/*Imagnes Museu e depoimento*/
+#Container{
+    background: url(../img/fundo.png) repeat-x top left;
+    align-items: center;
+}
+#Corpo{
+    width: 1100px;
+    margin: auto;
+}
+
+/*________________Lateral __________________*/
+
+#Lateral{
+    float: right;
+    width: 350px;
+    margin-left: 30px;
+    background: rgb(219, 217, 217);
+}
+#Input{
+    width: 350px;
+    height: 200px;
+    background:#ccc7b4;
+    margin-top:5px ;
+}
+#Input h3{
+    color: #815934;
+    padding: 20px;
+}
+#Texto_input{
+    margin-left: 20px;
+}
+#Time{
+    width: 130px;
+}
+#Qtd{
+    width: 50px;
+
+}
+#button{
+    width: 300px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: #9c9174;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#Galeria_fotos{
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    background: #ece6de;
+}
+#Galeria_fotos h3{
+    margin-bottom: 20px;
+    margin-right: 130px;
+    text-transform: uppercase;
+    color: #815934;
+}
+#Tabela td{
+    padding: 25px 10px;
+    background: url(../img/fundo-foto.png) no-repeat center center;
+}
+#Tabela img{
+    cursor:pointer;
+}
+#Tabela img:hover{
+    transform: scale(1.1, 1.1);
+    background:white;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.5);
+}
+
+/*________________Conteudos __________________*/
+
+#Conteudo{
+    width: 711px;
+    float: right;
+}
+#Img2{
+    float: right;
+}
+.Blocos{
+    width: 350px;
+    padding: 10px;
+    float: left;
+    margin-left: 3px;
+}
+.Blocos h2{
+    padding: 20px 20px 20px 0px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: green;
+}
+#Lista li{
+    list-style: disc;
+    margin-left: 30px;
+    color: rgb(218, 132, 3) ;
+}
+#Lista a{
+    color: rgb(218, 132, 3) ;
+}
+#Link{
+    margin-top: 18px;
+}
+#Link a {
+    color: rgb(248, 149, 1) ;
+    font-weight: bold;
+}
+
+/*__________________Navegacao footer_____________________*/
+
+#Footer{
+    text-align: center;
+    height: 100px;
+}
+#Navegacao2{
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    background: url(../img/fundo-rodape.png) no-repeat top center;
+    text-align: center;
+}
+#Navegacao2 li{
+    display: inline-block;
+    margin-top: 10px ;
+    padding: 10px 5px;
+    
+}
+#Navegacao2 a{
+    padding: 5px 10px;
+    color: #A86E13;
+}
+#Footer p{
+    padding: 10px;
+}
+#Footer span{
+    color: #A86E13;
+    font-weight: bold;
+}
