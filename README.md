@@ -11,7 +11,7 @@ Repositório destinado a aplicações  web
     * [Atribuicao em Js](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At4_Atribuicao_js)
     * [Curriculo Web](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At5_Pg_Curriculo)
     
-  - [HTML e CSS](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML%20e%20CSS)
+  - [HTML e CSS e Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
   
   - [JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/JavaScript)
   
