@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    background-color: silver;
+    font-size: 2em;
+    margin: auto;
+}
+
+#container section{
+    background: rgb(161, 158, 158);
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    /*Abilidando o flex*/
+    display: flex;
+
+    /*definindo a direcao do flex
+    row   -   row reverse   colunn  column reverse*/
+    flex-direction:row;
+
+    /*Definir justificacao do layout
+    fex-start   -   flex-end   - center   space-betwee
+    space-arround   -space-evenly */
+    justify-content: space-evenly;
+
+    /*definir alinhamento dos itens do layout
+    stretch -    center  -    flex-star     flex-end  */
+    align-items: center;
+
+    /*definir a quebra no layout 
+    nowrap -   wrap -    wrap-reverse*/
+    flex-wrap: wrap;
+}
+
+section .produtos{
+    width: 250px ;
+    height: 150px;
+    margin: 10px;
+    background: steelblue;
+    border: 1px solid black;
+}
