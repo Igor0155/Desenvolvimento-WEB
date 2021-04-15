@@ -10,6 +10,7 @@ Repositório destinado a aplicações  web
     * [Pagina CacauShow](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At3_Pg_CacauShow)
     * [Atribuicao em Js](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At4_Atribuicao_js)
     * [Curriculo Web](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At5_Pg_Curriculo)
+    * [Lista JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At6_Javascript_lista)
     
   - [HTML e CSS e Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
   
