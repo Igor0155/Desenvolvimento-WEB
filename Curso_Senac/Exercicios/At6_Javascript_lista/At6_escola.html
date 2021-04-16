@@ -59,6 +59,7 @@
 
         <div class="m-auto text-center ">
 
+            <p class="pt-3 h3" id="saida11"></p>
             <p class="pt-3 h3" id="saida1"></p>
             <p class="pt-3 h3" id="saida2"></p>
             <p class="pt-3 h3" id="saida3"></p>
@@ -82,38 +83,52 @@
         let nota2 = prompt('Insira a 2ª nota: ')
         let nota3 = prompt('Insira a 3ª nota: ')
         let nota4 = prompt('Insira a 4ª nota: ')
+        parseFloat(nota1)
+        parseFloat(nota2)
+        parseFloat(nota3)
+        parseFloat(nota4)
+        parseInt(faltas)
+
         let situacao
         let obs
 
-        let media = (parseInt(nota1) + parseInt(nota2) + parseInt(nota3) + parseInt(nota4)) / 4
+        if (nota1 == "" ||nota2 == "" ||nota3 == "" ||nota4 == ""|| faltas < 0 || faltas == ""
+            || nome == "" || nota1 < 0 || nota1 > 10 || nota2 < 0 || nota2> 10 || nota3 < 0 || nota3 > 10 ||
+            nota4 < 0 || nota4 > 10 ){
 
-        if (media > 9 && media <= 10 && faltas < 3) {
-            situacao = 'Aprovado com mérito'
-            obs = 'Tudo certo com esse aluno'
-        }
+            document.getElementById("saida11").innerHTML = (`Campo com Valores faltando ou valores incorretos <br>`)
+        
+        }else{
 
-        else if (media >= 7 && media <= 9) {
-            situacao = 'Aluno Aprovado'
-            obs = 'Tudo certo com esse aluno'
-        }
+            let media = (parseInt(nota1) + parseInt(nota2) + parseInt(nota3) + parseInt(nota4)) / 4
 
-        else if (media >= 5 && media < 7) {
-            situacao = 'Aluno em recuperação!'
-            obs = 'Enviar email para o(s) responsável(eis)'
-        }
+            if (media > 9 && media <= 10 && faltas < 3) {
+                situacao = 'Aprovado com mérito'
+                obs = 'Tudo certo com esse aluno'
+            }
 
-        else if (media < 5) {
-            situacao = 'Aluno em Reprovado!'
-            obs = 'Enviar email para o(s) responsável(eis)'
-        }
+            else if (media >= 7 && media <= 9) {
+                situacao = 'Aluno Aprovado'
+                obs = 'Tudo certo com esse aluno'
+            }
 
-        document.getElementById("saida1").innerHTML = (`Nome do aluno: ${nome}<br>`)
-        document.getElementById("saida2").innerHTML = (`Número de faltas: ${faltas}<br>`)
-        document.getElementById("saida3").innerHTML = (`Notas: ${nota1} : ${nota2} : ${nota3} : ${nota4}<br>`)
-        document.getElementById("saida4").innerHTML = (`Media do Aluno: ${media}<br>`)
-        document.getElementById("saida5").innerHTML = (`Situação: ${situacao}<br>`)
-        document.getElementById("saida6").innerHTML = (`Observações: ${obs}<br>`)
+            else if (media >= 5 && media < 7) {
+                situacao = 'Aluno em recuperação!'
+                obs = 'Enviar email para o(s) responsável(eis)'
+            }
 
+            else if (media < 5) {
+                situacao = 'Aluno em Reprovado!'
+                obs = 'Enviar email para o(s) responsável(eis)'
+            }
+
+            document.getElementById("saida1").innerHTML = (`Nome do aluno: ${nome}<br>`)
+            document.getElementById("saida2").innerHTML = (`Número de faltas: ${faltas}<br>`)
+            document.getElementById("saida3").innerHTML = (`Notas: ${nota1} : ${nota2} : ${nota3} : ${nota4}<br>`)
+            document.getElementById("saida4").innerHTML = (`Media do Aluno: ${media}<br>`)
+            document.getElementById("saida5").innerHTML = (`Situação: ${situacao}<br>`)
+            document.getElementById("saida6").innerHTML = (`Observações: ${obs}<br>`)
+    }
     </script>
 
 </body>

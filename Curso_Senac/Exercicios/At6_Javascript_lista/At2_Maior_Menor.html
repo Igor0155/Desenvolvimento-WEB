@@ -75,12 +75,13 @@
         let num2 = prompt('Insira o 2 numero:')
         let num3 = prompt('Insira o 2 numero:')
 
+
         //maior de 3
-        if (num1 >= num2 && num1 >= num3) {
+        if (parseInt(num1) >= parseInt(num2) && parseInt(num1) >= parseInt(num3)){
             document.getElementById("saida").innerHTML = (`O Maior numero e o 1ª :  ${num1}<br>`)
         }
 
-        else if (num2 >= num3) {
+        else if (parseInt(num2) >= parseInt(num3)) {
             document.getElementById("saida").innerHTML = (`O Maior numero e o 2ª :  ${num2}<br>`)
         }
 
@@ -101,8 +102,6 @@
         else {
             document.getElementById("saida2").innerHTML = (`O Menor numero e o 3ª :  ${num3}<br>`)
         }
-
-
 
     </script>
 
