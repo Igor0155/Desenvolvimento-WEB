@@ -102,22 +102,26 @@
 
             let media = (parseInt(nota1) + parseInt(nota2) + parseInt(nota3) + parseInt(nota4)) / 4
 
-            if (media > 9 && media <= 10 && faltas < 3) {
+            if (media > 9 && media <= 10 && faltas <= 3){
                 situacao = 'Aprovado com mérito'
                 obs = 'Tudo certo com esse aluno'
             }
+            else if (media > 9 && media <= 10){
+                situacao = 'Aprovado com nota máxima'
+                obs = 'Tudo certo com esse aluno'
+            }
 
-            else if (media >= 7 && media <= 9) {
+            else if (media >= 7 && media <= 9){
                 situacao = 'Aluno Aprovado'
                 obs = 'Tudo certo com esse aluno'
             }
 
-            else if (media >= 5 && media < 7) {
+            else if (media >= 5 && media < 7){
                 situacao = 'Aluno em recuperação!'
                 obs = 'Enviar email para o(s) responsável(eis)'
             }
 
-            else if (media < 5) {
+            else if (media < 5){
                 situacao = 'Aluno em Reprovado!'
                 obs = 'Enviar email para o(s) responsável(eis)'
             }
