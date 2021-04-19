@@ -7,17 +7,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script type="text/javascript" src="js/main.js"></script>
     <title>Js</title>
 
 </head>
-
-<body>
+<!--Quando carregar o body ele chama a funcao load-->
+<body onload="load()">
 
     <h1>Estudo Digital Innovation One</h1>
     <hr>
 
-    <script src="js/main.js"></script>
+    <button type="button " onclick="clicou()">Clique Aqui</button>
 
+    <p id="agradecimento" onclick="redirecionar()"><!--Obrigado por clicar--></p><br>
+
+    <!--Onmouseover e para passar o mouse e chamar a funcao // e o onmouseout retorna outra funcao quando nao ta com o mouse em cima  -->
+    <!--This passa vc mesmo como paramentro (Voce escolhe )-->
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <!--Nao precisa de  Id quando tem o this-->
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    
+    <select onchange="funcaoChange(this)">
+    
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+
+    </select>
 </body>
 
 </html>
