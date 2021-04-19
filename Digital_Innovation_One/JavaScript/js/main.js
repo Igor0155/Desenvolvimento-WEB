@@ -97,3 +97,94 @@ let d = new Date();
 alert(d.getUTCDay());
 
 */
+
+
+//Aula 4 ________________________Desenvolva paginas web (Function)________________________
+/*
+function soma(n1,n2){
+    return n1 + n2;
+
+}
+console.log(soma(5,10));
+
+
+function setReplace(frase,nome,novo_nome){
+   return frase.replace(nome,novo_nome)
+}
+//colocar o nome da function 
+console.log(setReplace("Vai Japão","Japao","Brasil"));
+
+
+function valida_Idade(idade) {
+    let validar
+    
+    if (idade >= 18){
+        validar = true
+    }
+    else{
+        validar = false
+    }
+
+    return validar
+}
+
+let idade = prompt('qual sua Idade:')
+console.log(valida_Idade(idade))
+
+ */
+
+//Aula 5 (Aula 4 Part2) ________________________Manipulandoelementos da pagina_____________________
+
+/*
+function clicou() {
+
+    //nahora queclicar aparece uma mensagem diferente
+    document.getElementById("agradecimento").innerHTML = "<strong>Obrigado iguuuu</strong>"
+    
+    //Na hora que clicar aparece a tag inteirano console
+    //console.log( document.getElementById("agradecimento"))
+    
+    //nahoraque clicar aparece um alerta
+    //alert('Obrigado por clicar')
+}
+ 
+
+//funcao  para ser redirecionado para uma pagina
+function redirecionar(){
+
+    //comando para redirecionar para a pagina
+    window.open('https://github.com/Igor0155/Desenvolvimento_WEB')
+
+
+    //nao e funcao so muda a referencia (Abre uma pagina por cima)
+    window.location.href ="https://www.facebook.com/"
+}
+
+function trocar(elemento) {
+    //inves de chamar o elementId chama o parametro da funcao e colocao inner
+    elemento.innerHTML = "Obrigado por passar o mouse"
+
+    //trocar o ttexto qunado passa o mouse em cima
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+
+    //alert("Trocar texto")
+}
+
+function voltar(elemento) {
+
+    elemento.innerHTML = "Passe o mouse aqui"
+
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+}
+
+//quandocarrrega o body ele chama essa funcao
+function load() {
+    alert("Pagina carregada")
+}
+
+function funcaoChange(elemento){
+    //.value pega o valor do elemento
+    console.log(elemento.value)
+}
+
+*/
