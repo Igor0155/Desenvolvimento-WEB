@@ -30,14 +30,14 @@ function codigo() {
                 // validando 
                 if (num < 0 || num == "") {
 
-                    obs = `A area não pode ser negativo `
+                    obs = `<h4 class="alert alert-danger"> A area não pode ser negativo </h4>`
                 }
                 else {
                     // chamando a função e colocando na variável auxiliar 
                     aux = areaCirculo(num)
 
                     // atribuindo a resposta na variável obs 
-                    obs = `A area do circulo e: ${aux}m²`
+                    obs = `<h4 class="alert alert-success">A area do circulo e: ${aux}m²</h4>`
                 }
                 break;
 
@@ -52,7 +52,7 @@ function codigo() {
                 // validando 
                 if (peso1 <= 0 || peso1 == "" || altura1 <= 0 || altura1 == "") {
 
-                    obs = `Os campos nao podem estar faltando e não pode ser negativo `
+                    obs = `<h4 class="alert alert-danger"> Os campos nao podem estar faltando e não pode ser negativo </h4>`
                 }
                 else {
                     // chamando a função 
@@ -70,14 +70,14 @@ function codigo() {
 
                 if (numRaiz < 0 || numRaiz == "") {
 
-                    obs = `A Raiz não pode ser negativo `
+                    obs = `<h4 class="alert alert-danger"> A Raiz não pode ser negativo </h4>`
                 }
                 else {
 
                     // chamando a função 
                     aux = raizQuadrada(numRaiz);
 
-                    obs = `A raiz quadrada de ${numRaiz} e de: ${aux}`
+                    obs = `<h4 class="alert alert-success">A raiz quadrada de ${numRaiz} e de: ${aux}</h4>`
                 }
                 break
 
@@ -93,18 +93,19 @@ function codigo() {
                 // validando 
                 if (base == "" || potencia == "") {
 
-                    obs = `A Base ou potencia estão faltando `
+                    obs = `<h4 class="alert alert-danger"> A Base ou potencia estão faltando </h4>`
                 }
                 else {
                     // chamando a função 
                     aux = calculoPotencia(base, potencia);
 
-                    obs = `O Calculo e de: ${aux}`
+                    obs = `<h4 class="alert alert-success">O Calculo e de: ${aux}</h4>`
                 }
                 break
 
 
             case 5:
+
                 // pegando o input 
                 let num1 = prompt(`Insira o 1° numero: `)
                 let num2 = prompt(`Insira o 2° numero: `)
@@ -116,14 +117,14 @@ function codigo() {
                 if (num1 == "" || num2 == "" || num3 == "" || num4 == "" || num5 == "" ||
                     num1 < 0 || num2 < 0 || num3 < 0 || num4 < 0 || num5 < 0) {
 
-                    obs = `Números podem estar faltando ou serem negativos`
+                    obs = `<h4 class="alert alert-danger"> Números podem estar faltando ou serem negativos</h4>`
                 }
 
                 else {
                     // pegando a função 
                     aux = mediaPonderada(num1, num2, num3, num4, num5)
 
-                    obs = `O calculo da media Ponderada e de: ${aux}`
+                    obs = `<h4 class="alert alert-success">O calculo da media Ponderada e de: ${aux}</h4>`
                 }
                 break
 
@@ -134,36 +135,37 @@ function codigo() {
                 let calor = prompt(`Insira a temperatura em Fahrenheit: `)
 
                 // validando 
-                if (calor == undefined) {
-                    obs = `Campos  nao poder ser vazios`
+                if (calor == "") {
+                    obs = `<h4 class="alert alert-danger"> Campos  nao poder ser vazios</h4>`
                 }
                 else {
 
                     // pegando a função 
                     aux = temperatura(calor)
 
-                    obs = `A temperatura em Celsius: ${aux} `
+                    obs = `<h4 class="alert alert-success">A temperatura em Celsius: ${aux} </h4>`
                 }
                 break
 
             case 7:
+
                 let salario = prompt(`Insira quanto ganha por hora`)
 
                 let mes = prompt(`Insira  horas trabalhadas no mes: `)
 
                 // validando 
-                if (salario < 0 || salario == undefined || mes < 0 || mes == undefined) {
-                    obs = `Campos nao poder ser nulos e nao podem estar faltando `
+                if (salario < 0 || salario == "" || mes < 0 || mes == "") {
+                    obs = `<h4 class="alert alert-danger"> Campos nao poder ser nulos e nao podem estar faltando </h4>`
                 }
 
                 else {
                     aux = calculoSalario(salario, mes)
 
-                    obs = `Salário liquido com desconto de:<br>
+                    obs = `<h4 class="alert alert-success">Salário liquido com desconto de:<br>
                         Imposto de Renda  = 11% <br>
                         INSS = 8% <br>
                         Sindicato = 5% <br>
-                        Salário liquido total e de: R$${aux.toFixed(2)}`
+                        Salário liquido total e de: R$${aux.toFixed(2)} </h4>`
                 }
                 break
 
@@ -174,12 +176,12 @@ function codigo() {
                 // validando 
                 if (lado < 0 || lado == "") {
 
-                    obs = `Invalido`
+                    obs = `<h4 class="alert alert-danger"> Invalido</h4>`
                 }
                 else {
                     aux = areaTriangulo(lado)
 
-                    obs = `A area do triângulo e de ${aux}`
+                    obs = `<h4 class="alert alert-success">A area do triângulo e de ${aux}</h4>`
                 }
 
                 break
@@ -192,15 +194,24 @@ function codigo() {
                 let seno = prompt(`Insira o Seno: `)
 
                 if (cateto <= 0 || cateto == "" || seno <= 0 || seno == "") {
-                    obs = `Valores com campo  faltando ou com valores negativos`
+                    obs = `<h4 class="alert alert-danger"> Valores com campo  faltando ou com valores negativos</h4>`
                 }
 
                 else {
 
                     aux = hipotenusa(cateto, seno)
 
-                    obs = `O valor da hipotenusa e de: ${aux}`
+                    obs = `<h4 class="alert alert-success">O valor da hipotenusa e de: ${aux}</h4>`
                 }
+                break
+
+            case 10:
+
+                // atribuindo a funcao na aux 
+                aux = fechar();
+
+                obs = aux
+
                 break
         }
 
@@ -215,6 +226,12 @@ function codigo() {
     // saida com a observação de determinado erro e respostas das atividades
     saida.innerHTML = `${obs}`
 
+}
+
+ // funcão para fechar a pagina 
+ function fechar() {
+    // comando window.close fecha aba  
+    window.close();
 }
 
 // função do calculo da area do circulo _______________1° At
@@ -241,31 +258,31 @@ function pesoPessoa(peso, altura) {
     if (imc < 18.5) {
 
         // retorno recebe a mensagem 
-        retorno = `IMC = ${imc.toFixed(2)} classificação: Magreza; Obesidade Grau 0`
+        retorno = `<h4 class="alert alert-warning">IMC = ${imc.toFixed(2)} classificação: Magreza; Obesidade Grau 0</h4>`
     }
 
     // Obesidade Grau 0 Normal
     else if (imc >= 18.5 && imc <= 24.9) {
 
-        retorno = `IMC = ${imc.toFixed(2)} classificação: Normal; Obesidade Grau 0`
+        retorno = `<h4 class="alert alert-success">IMC = ${imc.toFixed(2)} classificação: Normal; Obesidade Grau 0</h4>`
     }
 
     // Obesidade Grau 1 sobrepeso
     else if (imc >= 25 && imc <= 29.9) {
 
-        retorno = `IMC = ${imc.toFixed(2)} classificação: Sobrepeso; Obesidade Grau I`
+        retorno = `<h4 class="alert alert-warning">IMC = ${imc.toFixed(2)} classificação: Sobrepeso; Obesidade Grau I</h4>`
     }
 
     // obesidade Grau 2  Obesidade 
     else if (imc >= 30 && imc <= 39.9) {
 
-        retorno = `IMC = ${imc.toFixed(2)} classificação: Obesidade; Obesidade Grau II`
+        retorno = `<h4 class="alert alert-danger">IMC = ${imc.toFixed(2)} classificação: Obesidade; Obesidade Grau II</h4>`
     }
 
     // obesidade Grau 3  Obesidade Grave 
     else if (imc >= 40) {
 
-        retorno = `IMC = ${imc.toFixed(2)} classificação: OBESIDADE GRAVE; Obesidade Grau III`
+        retorno = `<h4 class="alert alert-danger">IMC = ${imc.toFixed(2)} classificação: OBESIDADE GRAVE; Obesidade Grau III</h4>`
     }
 
     // retornando a mensagem atribuída na variável "retorno " 
@@ -275,15 +292,9 @@ function pesoPessoa(peso, altura) {
 // função da raiz quadrada 
 function raizQuadrada(num) {
 
-    let divisor = 1
-    let div = 0
+    let raiz = num ** 0.5
 
-    for (let i = 0; i < num; i++) {
-
-        div = num / div;
-
-        divisor = (div + divisor) / 2
-    }
+    return raiz
 }
 
 // função da potencia 
@@ -309,6 +320,8 @@ function mediaPonderada(n1, n2, n3, n4, n5) {
     return media
 }
 
+
+
 // função da temperatura em fahrenheit para celsius 
 function temperatura(temp) {
 
@@ -317,6 +330,7 @@ function temperatura(temp) {
     return calculo
 
 }
+
 // calculo de salário liquido com descontos 
 function calculoSalario(salario, mes) {
 
@@ -333,6 +347,7 @@ function calculoSalario(salario, mes) {
     return salario_liquido
 
 }
+
 // função de calculo de area de triângulo 
 
 function areaTriangulo(lado) {
