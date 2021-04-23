@@ -13,6 +13,12 @@ function verificar() {
         aux = 1
     }
 
+
+    // verificando se a string so tem 1 carácter ".length" retorno o tamanho da string 
+    else if (letra.length != 1) {
+        aux = 6
+    }
+
     // se o a string for mesmo uma string vai cair aqui
     else if (isNaN(letra) == true) {
 
@@ -38,10 +44,12 @@ function verificar() {
             aux = 4
         }
     }
+    // se der false a string e um numero 
     else if (isNaN(letra) == false) {
         aux = 5
     }
 
+    // switch contendo o retorno para o  usuário 
     switch (aux) {
 
         case 1:
@@ -76,6 +84,11 @@ function verificar() {
 
         case 5:
             result = `<h4 class="alert alert-danger"> [  ${letra} ] e um Numero </h4>`;
+
+            break;
+
+        case 6:
+            result = `<h4 class="alert alert-danger">A string so pode ter 1 Carácter </h4>`;
 
             break;
 

@@ -207,11 +207,14 @@ function codigo() {
 
             case 10:
 
-                // atribuindo a funcao na aux 
+                // atribuindo a função na aux 
                 aux = fechar();
 
                 obs = aux
 
+                break
+            default:
+                obs = `<h4 class="alert alert-danger">Insira um numero de 1 a 10</h4>`;
                 break
         }
 
@@ -228,8 +231,8 @@ function codigo() {
 
 }
 
- // funcão para fechar a pagina 
- function fechar() {
+// função para fechar a pagina 
+function fechar() {
     // comando window.close fecha aba  
     window.close();
 }
