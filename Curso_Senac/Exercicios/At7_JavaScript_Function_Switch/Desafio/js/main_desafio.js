@@ -17,8 +17,6 @@ function verificar() {
     // se o a string for mesmo uma string vai cair aqui
     else if (isNaN(letra) == true) {
 
-        result = `<h4 class="alert alert-primary"> a ` + String(letra) + ` e uma string </h4>`;
-
         // transformando a letra em minúscula para nao ter erro na comparação
         letra = letra.toLowerCase();
 
@@ -28,7 +26,7 @@ function verificar() {
             letra = letra.toUpperCase();
 
             // atribuindo a saida na variável 
-            result = `<h4 class="alert alert-success"> \" ` + String(letra) + ` \" e uma Vogal </h4>`;
+            result = `<h4 class="alert alert-success"> \" ${letra} \" e uma Vogal </h4>`;
         }
 
         // verificando a  letra e uma consoante 
@@ -38,17 +36,17 @@ function verificar() {
 
             letra = letra.toUpperCase();
             
-            result = `<h4 class="alert alert-warning"> \" ` + String(letra) + ` \" e uma Consoante </h4>`;
+            result = `<h4 class="alert alert-warning"> \" ${letra} \" e uma Consoante </h4>`;
         }
 
         // se nao for consoante e um carácter special 
         else {
             letra = letra.toLowerCase();
-            result = `<h4 class="alert alert-warning"> \" ` + String(letra) + ` \" e um Carácter Special </h4>`;
+            result = `<h4 class="alert alert-warning"> \" ${letra} \" e um Carácter Special </h4>`;
         }
     }
     else if(isNaN(letra) == false) {
-        result = `<h4 class="alert alert-danger"> [  ` + String(letra) + ` ] e um Numero </h4>`;
+        result = `<h4 class="alert alert-danger"> [  ${letra} ] e um Numero </h4>`;
     }
 
     // saida da function
