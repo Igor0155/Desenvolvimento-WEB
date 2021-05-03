@@ -12,7 +12,7 @@ Repositório destinado a aplicações  web
     * [Curriculo Web](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At5_Pg_Curriculo)
     * [Lista JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At6_Javascript_lista)
     * [Funções e Switch JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At7_JavaScript_Function_Switch)
-    * [Pagina de calculo de Imposto (Front-end)]()
+    * [Pagina de calculo de Imposto (Front-end)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At8_Pag_Imposto)
     
   - [HTML e CSS e Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
   
