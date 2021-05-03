@@ -1,0 +1,16 @@
+.Clear {
+    clear: both;
+}
+
+.bordas {
+    border-color: #0a4275;
+    border-radius: 150px;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.radius:hover {
+    background-color: #0683f7d7;
+}
