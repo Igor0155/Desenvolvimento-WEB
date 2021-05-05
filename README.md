@@ -33,7 +33,7 @@ Repositório destinado a aplicações  web
   
   - [JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy/Javascript)
   
-## [_Projetos__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web)
+## [__Projetos__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web)
   
   * [Clone LinkTree](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Meus_projetos_web/LinkTree)
     
