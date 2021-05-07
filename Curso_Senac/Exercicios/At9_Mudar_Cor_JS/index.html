@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Mudar Cor</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-secondary">
+
+    <div class="form-group container w-50 text-center text-white bg-dark pb-5 ">
+
+        <label for="" class="h3 text-center m-3">Selecione</label>
+
+        <input type="text" name="" id="text" class="form-control text-danger" placeholder="Pressione..."
+            onfocus="foco();" onblur="saida();">
+
+    </div>
+
+    <script>
+
+        function foco() {
+            // alterando o fundo no foco 
+            document.getElementById("text").style.backgroundColor = 'rgb(19, 212, 19)'//green
+
+        }
+        function saida() {
+
+            let area = document.getElementById("text").value
+
+            //pegando o tamanho da string
+            let cont = area.length
+
+            if (cont < 3) {
+                // alterando o fundo para yellow
+                document.getElementById("text").style.backgroundColor = 'yellow'
+            }
+            else {
+                // alterando o fundo para blue
+                document.getElementById("text").style.backgroundColor = 'rgb(52, 52, 247)' //blue
+            }
+
+        }
+
+
+    </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Calculo de equação de 2° Grau</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+        <h1 class="display-4 text-center p-5 text-white">Calculo de Equação de 2° Grau</h1>
+
+        <div class="form-group w-50 m-auto text-center">
+
+            <label class="h3 text-white">Insira os números</label>
+
+            <input type="text" name="" id="num1" class="form-control mt-3" placeholder="1° Numero">
+            <input type="text" name="" id="num2" class="form-control mt-3" placeholder="2° Numero">
+            <input type="text" name="" id="num3" class="form-control mt-3" placeholder="3° Numero">
+
+
+            <button type="submit" class="btn btn-success m-2 mt-4" onclick="calcular();">Submit</button>
+            <button type="submit" class="btn btn-danger m-2 mt-4" onclick="limpar();">Clear</button>
+
+        </div>
+
+        <div id="Result" class="text-center h4 mt-4 text-white">Resultado aparecera aqui</div>
+    </div>
+
+    <script>
+
+        function limpar() {
+
+            document.getElementById("num1").value = ""
+            
+            document.getElementById("num2").value = ""
+
+            document.getElementById("num3").value = ""
+
+            document.getElementById("Result").innerHTML = ``
+
+        }
+
+        function calcular() {
+
+            let a = Number(document.getElementById("num1").value)
+
+            let b = Number(document.getElementById("num2").value)
+
+            let c = Number(document.getElementById("num3").value)
+
+            let saida = document.getElementById("Result")
+
+            let obs
+
+            if (a == "") {
+
+                obs = `O valor do primeiro numero nao pode ser nulo`
+
+            }
+            else {
+
+                let quadrado_b = b * b
+
+                let delta = (quadrado_b) - 4 * (a * c)
+
+                if (delta < 0) {
+                    obs = `Não foi possivel calcular pois o delta e menor que 0`
+                }
+                else if (delta == 0) {
+                    obs = `Delta é zero, portano os valores de x1 e x2 serao iguais `
+                } else {
+
+
+                    let nega_b = b * (-1)
+
+                    let raiz_delta = Math.sqrt(delta)
+
+                    let div = 2 * a
+
+                    let X1 = (nega_b + raiz_delta) / div
+
+                    let X2 = (nega_b - raiz_delta) / div
+
+                    obs = `Valor de X1 = ${X1} <br> Valor de X2 = ${X2}`
+                }
+            }
+
+
+
+            saida.innerHTML = obs
+
+        }
+    </script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
