@@ -15,7 +15,7 @@ Repositório destinado a aplicações  web
     * [Pagina de calculo de Imposto (Front-end)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At8_Pag_Imposto)
     * [Calculadora Basica Js](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At_Calculadora_Js)
     * [Mudar a cor do input Js](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At09_Mudar_Cor_JS)
-    * [Calcular a Equção de 2° Grau Js]()
+    * [Calcular a Equção de 2° Grau Js](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At10_Equacao_2_grau)
     
   - [HTML e CSS e Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
   
