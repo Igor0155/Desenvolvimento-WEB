@@ -13,6 +13,9 @@ Repositório destinado a aplicações  web
     * [Lista JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At6_Javascript_lista)
     * [Funções e Switch JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At7_JavaScript_Function_Switch)
     * [Pagina de calculo de Imposto (Front-end)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At8_Pag_Imposto)
+    * [Calculadora Basica Js]()
+    * [Mudar a cor do input Js]()
+    * [Calcular a Equção de 2° Grau Js]()
     
   - [HTML e CSS e Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
   
