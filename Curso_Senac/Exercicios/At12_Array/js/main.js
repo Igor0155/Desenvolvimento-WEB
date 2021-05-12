@@ -1,81 +1,81 @@
-  let compras = new Array()
+let compras = new Array()
 
-        function Itens() {
+function Itens() {
 
-            document.getElementById('title').innerHTML = `<h3>Itens Adicionados:</h3>`
+    document.getElementById('title').innerHTML = `<h3>Itens Adicionados:</h3>`
 
-            let saida = document.getElementById('Saida')
+    let saida = document.getElementById('Saida')
 
-            let string = document.getElementById('text').value
+    let string = document.getElementById('text').value
 
-            document.getElementById('text').value = ``
+    document.getElementById('text').value = ``
 
 
-            if (string == "") {
+    if (string == "") {
 
-                alert(`Os campos estao vazios`)
+        alert(`Os campos estao vazios`)
 
-            }
+    }
 
-            else {
+    else {
 
-                let aux = compras.indexOf(string)
+        let aux = compras.indexOf(string)
 
-                if (aux === -1) {
+        if (aux === -1) {
 
-                    compras.unshift(string)
+            compras.unshift(string)
 
-                    saida.innerHTML += ` ${string} |`
-
-                }
-
-                else {
-
-                    alert(`O item ja existe na lista de compras`)
-                }
-
-            }
-            console.log(compras)
-        }
-
-        function Ordenar() {
-
-            let saida2 = document.getElementById('Saida_Ordenada')
-
-            // string
-            let ordem = compras.sort()
-
-            saida2.innerHTML = `<br><h3>Lista de compras ordenada:</h3><br>${ordem}`
-
-            console.log(ordem)
-
+            saida.innerHTML += ` ${string} |`
 
         }
 
-        function Limpar() {
+        else {
 
-            document.getElementById('text').value = ``
-
-            document.getElementById('title').innerHTML = ``
-
-            document.getElementById('Saida').innerHTML = ``
-
-            document.getElementById('Saida_Ordenada').innerHTML = ``
-
-
+            alert(`O item ja existe na lista de compras`)
         }
 
-        function Limpar_lista() {
+    }
+    console.log(compras)
+}
 
-            compras = new Array()
+function Ordenar() {
 
-            document.getElementById('Saida').innerHTML = ``
+    let saida2 = document.getElementById('Saida_Ordenada')
 
-            document.getElementById('title').innerHTML = ``
+    // string
+    let ordem = compras.sort()
 
-            document.getElementById('Saida_Ordenada').innerHTML = ``
+    saida2.innerHTML = `<br><h3>Lista de compras ordenada:</h3><br>${ordem}`
 
-            alert(`A lista de Compras foi resetada `)
+    console.log(ordem)
 
-            console.log(compras)
-        }
+
+}
+
+function Limpar() {
+
+    document.getElementById('text').value = ``
+
+    document.getElementById('title').innerHTML = ``
+
+    document.getElementById('Saida').innerHTML = ``
+
+    document.getElementById('Saida_Ordenada').innerHTML = ``
+
+
+}
+
+function Limpar_lista() {
+
+    compras = new Array()
+
+    document.getElementById('Saida').innerHTML = ``
+
+    document.getElementById('title').innerHTML = ``
+
+    document.getElementById('Saida_Ordenada').innerHTML = ``
+
+    alert(`A lista de Compras foi resetada `)
+
+    console.log(compras)
+}
