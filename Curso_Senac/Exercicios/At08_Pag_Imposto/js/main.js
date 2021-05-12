@@ -1,7 +1,7 @@
 function tributaveis() {
     //na hora que clicar aparece um alerta
     alert(`Rendimentos tributáveis são todos os valores recebidos pelo contribuinte que podem sofrer a incidência da cobrança do Imposto de Renda, ou seja, eles entram no cálculo da declaração, como salários, férias e recebimento de aluguéis.`)
-    
+
 }
 
 function previdencia() {
