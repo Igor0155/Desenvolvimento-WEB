@@ -10,6 +10,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+    <!-- chamando o arquivo js -->
+    <script src="js/main.js"></script>
+    
 </head>
 
 <body class="bg-dark">
@@ -35,74 +39,6 @@
 
         <div id="Result" class="text-center h4 mt-4 text-white">Resultado aparecera aqui</div>
     </div>
-
-    <script>
-
-        function somar() {
-
-            let num1 = Number(document.getElementById("num1").value)
-
-            let num2 = Number(document.getElementById("num2").value)
-
-            let saida = document.getElementById("Result")
-
-            let soma = num1 + num2
-
-            saida.innerText = (`O resultado e: ${soma}`)
-
-        }
-        function subtrair() {
-
-            let num1 = Number(document.getElementById("num1").value)
-
-            let num2 = Number(document.getElementById("num2").value)
-
-            let saida = document.getElementById("Result")
-
-            let soma = num1 - num2
-
-            saida.innerText = (`O resultado e: ${soma}`)
-
-        }
-
-        function multiplicar() {
-
-            let num1 = Number(document.getElementById("num1").value)
-
-            let num2 = Number(document.getElementById("num2").value)
-
-            let saida = document.getElementById("Result")
-
-            let soma = num1 * num2
-
-            saida.innerText = (`O resultado e: ${soma}`)
-
-        }
-
-        function dividir() {
-
-            let num1 = Number(document.getElementById("num1").value)
-
-            let num2 = Number(document.getElementById("num2").value)
-
-            let saida = document.getElementById("Result")
-
-            let soma = num1 / num2
-
-            saida.innerText = (`O resultado e: ${soma}`)
-
-        }
-
-        function limpar() {
-
-            document.getElementById("num1").value = ""
-
-            document.getElementById("num2").value = ""
-
-            document.getElementById("Result").innerHTML = ``
-        }
-
-    </script>
 
 
     <!-- Optional JavaScript -->
