@@ -10,6 +10,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- chamando o arquivo js -->
+    <script src="js/main.js"></script>
 </head>
 
 <body class="bg-secondary">
@@ -22,34 +25,6 @@
             onfocus="foco();" onblur="saida();">
 
     </div>
-
-    <script>
-
-        function foco() {
-            // alterando o fundo no foco 
-            document.getElementById("text").style.backgroundColor = 'rgb(19, 212, 19)'//green
-
-        }
-        function saida() {
-
-            let area = document.getElementById("text").value
-
-            //pegando o tamanho da string
-            let cont = area.length
-
-            if (cont < 3) {
-                // alterando o fundo para yellow
-                document.getElementById("text").style.backgroundColor = 'yellow'
-            }
-            else {
-                // alterando o fundo para blue
-                document.getElementById("text").style.backgroundColor = 'rgb(52, 52, 247)' //blue
-            }
-
-        }
-
-
-    </script>
 
 
     <!-- Optional JavaScript -->
