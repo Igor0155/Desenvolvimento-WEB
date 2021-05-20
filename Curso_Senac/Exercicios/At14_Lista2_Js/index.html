@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Atividade 14 Lista Array e For</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- pegando o caminho do js  -->
+    <script src="js/main.js"></script>
+
+    <!-- modificando determinados elementos aqui para nao precisar de arquivo css a parte  -->
+    <style>
+        /* colocando margin em botão  */
+        .botao {
+            margin-top: 30px;
+            margin-left: 350px;
+            margin-bottom: 20px;
+        }
+        .botao2 {
+            margin-top: 30px;
+
+            margin-bottom: 20px;
+        }
+
+        /* colocando margin no input  */
+        .input_usu {
+            margin: auto;
+            margin-top: 50px;
+        }
+    </style>
+
+</head>
+
+<body class="bg-dark">
+
+    <!-- text  de input -->
+
+    <hr>
+
+    <!-- container para agrupar tudo  -->
+    <div class="container w-75 bg-secondary p-3">
+
+        <h1 class="text-center text-white mb-3" id="Topo">Atividade 14 Lista Array e For</h1>
+        <h3 class="text-center text-white mb-4" id="Topo">Insira o código</h3>
+
+        <!-- lista para os usuários qual opção ele deseja acessar  -->
+        <ul class="list-group list-group-flush w-75 m-auto col-sm-12">
+            <li class="list-group-item bg-dark text-white m-1">A - Fatorial de um número</li>
+            <li class="list-group-item bg-dark text-white m-1">B - Verificar se um número e primo</li>
+            <li class="list-group-item bg-dark text-white m-1">C - Colocar números em  ordem crescente</li>
+            <li class="list-group-item bg-dark text-white m-1">D - Nomes em ordem alfabética</li>
+            <li class="list-group-item bg-dark text-white m-1">E - Valores a serem inseridos em um array</li>
+            <li class="list-group-item bg-dark text-white m-1">F - Encontrar media aritmética</li>
+            <li class="list-group-item bg-dark text-white m-1">G - Varrer Array</li>
+            <li class="list-group-item bg-dark text-white m-1">H - Verificar qual ano e bissexto</li>
+            <li class="list-group-item bg-dark text-white m-1">I - Encontrar números primos de 0 a 100</li>
+            <li class="list-group-item bg-dark text-white m-1">J - Sorteio Mega sena</li>
+        </ul>
+
+        <!-- input para pegar o código da sessão  -->
+        <input type="text" class="form-control bg-dark text-white w-75 input_usu" name="letra" id="code"
+            placeholder="Digite o código aqui" value="" />
+
+        <button type="button" class="btn btn-primary me-5 botao" onclick="code();">Submit</button>
+        <button type="button" class="btn btn-primary botao2" onclick="limpar();">limpar</button>
+
+        <div class="alert">
+            <!-- saida  dos dados do  js  -->
+            <p class="m-2 " id="result"></p>
+            <p class="m-2 " id="result2"></p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
