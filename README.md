@@ -19,7 +19,7 @@ Repositório destinado a aplicações  web
     * [Calculadora Avançada com Eval (Js)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At11_Calculadora_avançada)
     * [Array Lista de Compras (Js)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At12_Array)
     * [Tabuada (Js)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At13_Tabuada)
-    * [Lista 2 (Js)]()
+    * [Lista 2 (Js)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At14_Lista2_Js)
     
   - [HTML e CSS e Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
   
