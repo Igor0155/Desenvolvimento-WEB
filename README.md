@@ -21,9 +21,11 @@ Repositório destinado a aplicações  web
     * [Tabuada (Js)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At13_Tabuada)
     * [Lista 2 (Js)](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios/At14_Lista2_Js)
     
-  - [HTML e CSS e Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
+  - [HTML CSS Bootstrap](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/HTML_e_CSS_Bootstrap)
   
   - [JavaScript](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/JavaScript)
+  
+  - [Dart](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Dart)
   
 ## [__Curso Udemy__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Udemy)
    
