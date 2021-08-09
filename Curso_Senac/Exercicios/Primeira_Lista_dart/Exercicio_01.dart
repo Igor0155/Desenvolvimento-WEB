@@ -1,6 +1,0 @@
-
-main() {
-
-  print('Alo Mundo');
-  
-}
