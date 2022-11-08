@@ -27,6 +27,7 @@
     color: rgb(253, 253, 253);
     background-color: rgb(29, 29, 233);
     padding: 10px;
+    text-align: center;
     position:fixed;
     top: 80%;
     right: 0%;
@@ -189,14 +190,34 @@
 .imagem{
     height: auto;
     height: 50vh;
-    border: 1px solid;
     margin-top: 15vh;
     margin-left:auto;
 }
 
 .imagem > img{
     size: 1vh;
+}
 
+.text2{
+    height: auto; 
+    height: 40%;
+    background: none;
+    /* padding: 5px; */
+}
+
+.text2 > h1{
+    height: auto;
+    font-size: 3em;
+    padding-bottom: 3vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10vh;
+    margin-right: 5vh;
+    margin-top: 3vh;
+}
+.text2 > p{
+    padding: 30px 19px 0px 70px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Rodape da pagina */
