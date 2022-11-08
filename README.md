@@ -1,6 +1,13 @@
 # Desenvolvimento_WEB
 Repositório destinado a aplicações  web
 
+## [__Faculdade BSI__](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/CES_BSI)
+
+  - [HTML e CSS](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/CES_BSI/html)
+
+    * [Site](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/CES_BSI/html/Atividades/Site)
+
+
 ## [__Curso Senac__](https://github.com/Igor0155/Desenvolvimento-WEB/tree/main/Curso_Senac)
 
   - [Exercícios](https://github.com/Igor0155/Desenvolvimento_WEB/tree/main/Curso_Senac/Exercicios)
