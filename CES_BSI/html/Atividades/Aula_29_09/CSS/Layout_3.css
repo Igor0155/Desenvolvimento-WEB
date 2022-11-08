@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Topo1{
+    height: 7vh;
+    text-align: center;
+    background-color:yellow;
+    width: 100%;
+}
+
+#Center{
+    display:flex;
+    width: 100%;
+}
+
+#Lateral{
+    width: 25%;
+    background-color: chartreuse   ;
+    height: 85vh;
+    text-align: center;
+}
+
+#Lateral > h2{
+    margin-top: 100%;
+}
+
+#Conteudo > h2{
+    margin-top: 33.2% ;
+    margin-left: 35vh;
+}
+
+#Conteudo{
+    width: 75%;
+    height: 85vh;
+    background-color: aqua ;
+}
+
+#Rodape{
+    height: 8vh;
+    text-align: center;
+    background-color: rgb(142, 45, 240);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

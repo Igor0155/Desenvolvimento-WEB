@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#Topo{
+    height: 10vh;
+    text-align: center;
+    background-color: rgb(0, 250, 0);
+
+}
+
+#Topo > h1{
+    padding-top: 1.5% ;
+}
+
+#Menu{
+    height: 5vh;
+    text-align: center;
+    background-color: rgb(255, 0, 200);
+}
+
+#Conteudo{
+    height: 80vh;
+    text-align:center;
+    background-color: rgb(0, 255, 255);
+}
+
+#Conteudo > h1{
+    padding-top: 25%;
+}
+
+#Rodape{
+    height: 5vh;
+    text-align: center;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+}

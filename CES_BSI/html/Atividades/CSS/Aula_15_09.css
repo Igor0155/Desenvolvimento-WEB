@@ -1,0 +1,46 @@
+*{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;    
+}
+
+.Class1{
+    background-color:steelblue;
+    margin: 10px 0px 0px 10px;
+    border-bottom: 3px solid;
+    padding: 25px 10px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.Border{
+    border: none;
+    border-top: 3px solid;
+    margin: 0px 0px 10px 10px;    
+}
+
+#Caixa{
+    max-width: 50%;
+    margin-left:10px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    clear: both;
+}
+
+.Bloco1{
+    width: 30%;
+    border-right: 3px solid;
+    padding: 15px 3px 15px 10px;
+}
+
+.Bloco2{
+    width: 70%;
+    padding: 15px 10px;
+}

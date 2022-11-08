@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.Blocos{
+    width: 25vh;
+    height: 25vh;
+    display: inline;
+}
+
+#TopL{
+    float: left;
+    background-color: aqua;
+}
+
+#TopR{
+    float: right;
+    background-color:aquamarine;
+}
+
+#BottomL{
+    float: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color:cyan;
+}
+
+#BottomR{
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color:turquoise;
+}
+
+h2{
+    text-align: center;
+}

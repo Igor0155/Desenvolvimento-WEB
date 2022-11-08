@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* topo da pagina */
+#Menu{
+    height: 12%;
+    display: flex;    
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+#Menu > h1{
+    /* margin-left: 75vh; */
+    padding-left: 33%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vmax;
+}
+
+/* Botão de mensagem */
+#Botao{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    background-color: rgb(29, 29, 233);
+    padding: 10px;
+    position:fixed;
+    top: 80%;
+    right: 0%;
+    margin: 50px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+/* Primeira pagina */
+.Secao{
+    height: 85%;  
+    display: flex; 
+    margin-top:30px ;
+    margin-bottom: 60px;    
+}
+
+/* Espaço da imagem e da faixa laranja  */
+.BlocoImg{
+    display: flex;    
+    width: 35%;
+    margin-left: auto;
+}
+
+#Img1{
+    width: 50%;
+    height: 50%;
+    padding-top: 20%;
+    position: relative;
+}
+
+#Blocol{    
+    width: 100%;
+    background-color: #ff613a;    
+}
+
+/* Texto ao lado da imagem */
+.Text{
+    /* height: auto; */
+    border: 1px solid red;
+    width: 30%;
+    margin-right: auto;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(247, 243, 243);
+}
+
+.Text > div{
+    height: auto;
+}
+
+/* Fundo da segunda pagina */
+#Fundo {
+    width: 100%;
+    height: 100%;
+    background: url('../img/space.png');
+    opacity: 0.8; 
+    background-attachment: fixed;   
+}
+
+/* texto da imagem  */
+#Fundo > div{
+    height: auto;
+    border: 1px solid yellow;
+    text-align: center;
+    padding-top: 30vh;
+    
+}
+#Fundo > div > h1{
+    color: white;
+    font-size: 16vmax;
+    
+}
+
+.imagem{
+    height: auto;
+    height: 50vh;
+    border: 1px solid;
+    margin-top: 15vh;
+    margin-left:auto;
+}
+.imagem > img{
+    size: 1vh;
+
+}
+
+#Rodape{
+    height: auto;
+    height: 6vh;
+    /* background-color:rgba(3, 3, 32, 0.842); */
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+#Rodape > p{
+    margin: auto;
+    background-color:rgba(3, 3, 32, 0.842);
+    padding-top: 4vh;
+}

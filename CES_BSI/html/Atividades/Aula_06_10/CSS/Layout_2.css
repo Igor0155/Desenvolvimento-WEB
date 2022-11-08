@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#Topo{
+    width: 100vh;
+    background-color: aqua;
+}
+
+div > h1{
+    text-align: center;
+    margin: auto;
+    
+}
+#Menu{
+    width: 100vh;    
+    background-color: aquamarine;
+}
+#Conteudo{
+    width: 100vh;
+    height: 80vh;
+    background-color:cornflowerblue;
+}
+#Conteudo > h1{
+    padding-top: 35vh;
+}
+
+footer{
+    height: 20vh;
+    text-align: center;
+    background-color: aqua;
+}
