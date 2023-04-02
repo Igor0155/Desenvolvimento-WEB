@@ -10,7 +10,6 @@ body {
 
 #Logo_img {
     text-align: center;
-
 }
 
 /*COMEÇO DO MENU */
@@ -100,55 +99,130 @@ body {
 
 /*CONTEUDO DA PAGINA */
 
-.conteudo{
+.conteudo {
     width: 100vh;
     margin: auto;
     text-align: justify;
     padding: 5px;
 }
-.conteudo h2{
+
+.conteudo h2 {
     text-align: justify;
     padding: 15px 0px;
 }
-.conteudo p{
+
+.conteudo p {
     padding: 5px;
 }
 
-.List2 dt{
+.List2 dt {
     margin: 5px;
     margin-left: 10px;
     margin-top: 10px;
     font-size: 17px;
     font-weight: bold;
 }
-.List2 dd{
-margin: 20px ;
-margin-left: 30px;
+
+.List2 dd {
+    margin: 20px;
+    margin-left: 30px;
 }
 
-.List2 ul{
+.List2 ul {
     margin-left: 30px;
 }
 
 /*FIM CONTEUDO DA PAGINA */
 
 
-
-
 /*Pagina Cursos*/
 
-.conteudo img{
- width: 1000px;
- 
+.conteudo img {
+    width: 1000px;
+
 }
 
-.conteudo h1{
+.conteudo h1 {
     text-align: center;
     padding: 25px 0px;
 }
 
-.conteudo h5{
+.conteudo h5 {
     padding: 10px 5px;
+}
+
+
+/*Pagina HORARIOS */
+
+
+#corpo {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color: #DCDCDC; */
+    border: 1px;
+    border-color: #4F4F4F;
+}
+
+
+.teste_border {
+    background-color: #31B404;
+}
+
+.tabela tr th {
+    background-color: #C0C0C0;
+    padding: 15px;
+    margin: auto;
+}
+
+.tabela {
+    text-align: left;
+    margin: auto;
+    border-collapse: collapse;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+tr td {
+    padding: 15px;
+}
+
+h3 {
+    padding: 15px;
+}
+
+.space {
+    height: 50px;
+}
+
+
+/*PAGINA PROFESSOR*/
+
+.image {
+    float: left;
+    padding: 100px 20px 150px 20px;
+    display: inline-block;
+
+}
+
+.image img {
+    width: 250px;
+
+}
+
+#text-prof {
+    padding: 90px 10px 10px 10px;
+
+}
+
+
+/* PAGINA SOBRE  */
+
+.conteudo_sobre {
+
+    width: 50%;
+    margin: auto;
+
+    padding: 60px 0px 90px;
 }
 
 
@@ -156,35 +230,38 @@ margin-left: 30px;
 
 /*RODAPE */
 
-#Rodape{
+#Rodape {
     width: 100%;
     background-color: #ffffff;
     margin-top: 50px;
     height: auto;
     display: flex;
 }
-#Direitos{
+
+#Direitos {
     margin-left: 10%;
     margin-top: 50px;
     width: 30%;
     font-size: 0.7em;
     text-align: center;
 }
-#Logo_2{
+
+#Logo_2 {
     margin-left: 10%;
     width: 250px;
     margin-top: 50px;
 }
-#Social{
+
+#Social {
     margin-top: 50px;
     margin-left: 10%;
     width: 210px;
     padding: 15px;
     padding-bottom: 5px;
 }
-#Social li{
+
+#Social li {
     display: inline-block;
     padding: 5px;
     margin: 5px;
 }
-
