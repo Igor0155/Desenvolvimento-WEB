@@ -76,7 +76,8 @@ body {
 /*FIM DO MENU*/
 
 #topo {
-    background-color: #1A99D5;
+    background-image: linear-gradient(#4B3BF3, #39A8FE);
+    /* background-color: #1A99D5; */
     width: 98.4%;
     margin: auto;
     padding: 10px;
@@ -264,4 +265,21 @@ h3 {
     display: inline-block;
     padding: 5px;
     margin: 5px;
+}
+
+#creator{
+    margin: auto;
+    text-align: right;
+    padding-bottom: 20px;
+    background-color: white;
+}
+#creator h6 {
+    margin: auto;
+    max-width: 105em;
+    
+}
+
+.email {
+    text-decoration: none;
+    color: gray;
 }
