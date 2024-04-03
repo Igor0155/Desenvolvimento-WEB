@@ -1,0 +1,12 @@
+
+.container_titulo {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #473c3c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #000000;
+  }

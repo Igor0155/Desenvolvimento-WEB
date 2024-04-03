@@ -1,0 +1,50 @@
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.sorteio {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  align-self: center;
+}
+
+.sorteio_title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.sorteio_p {
+  margin-bottom: 0.5rem;
+}
+
+.span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.tabela_Item {
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tabela_item_tr,
+  .tabela_item_td {
+    padding: 3rem;
+    border: 1px solid #dee2e6;
+  }
+  
+  .tabela_item_th {
+    text-align: center;
+    background-color: #24228d;
+    color: aliceblue;
+  }
+
+  
